@@ -21,7 +21,7 @@ import requests
 # Configuration
 # ────────────────────────────────────────────────────────────────────────────────
 
-GOOGLE_API_KEY = "AIzaSyCWyKsAsV54P1jG1maqgpKweaGDNiAfHLg"
+GOOGLE_API_KEY = "API_KEY_HERE"
 TEAMS_CSV = "wscl_teams_from_map.csv"  # Team,City,State,Zip
 RACES_CSV = "wscl_races_2023_2025.csv"  # Year,Date,City,Venue  (Season optional)
 OUTPUT_JSON = "bike_league_data.json"
