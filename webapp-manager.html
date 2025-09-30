@@ -1,258 +1,406 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WSCL Distance Tracker - Road Warriors Edition</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-900 text-gray-100 min-h-screen p-6">
-    <div class="max-w-7xl mx-auto">
-        <div class="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg shadow-2xl p-8 mb-8">
-            <h1 class="text-4xl font-bold text-white mb-2">Washington State Bike League</h1>
-            <h2 class="text-2xl text-indigo-200">Road Warrior Distance Tracker</h2>
-            <p class="text-indigo-100 mt-4">Celebrating the teams that go the extra mile... and then some.</p>
-        </div>
-
-        <div id="loadingSection" class="bg-gray-800 rounded-lg shadow-xl p-6 mb-8">
-            <p class="text-center">Loading data...</p>
-        </div>
-
-        <div id="mainContent" class="hidden">
-            <div class="grid grid-cols-2 md:grid-cols-5 gap-6 mb-8">
-                <div class="bg-gradient-to-br from-yellow-500 to-orange-500 rounded-lg shadow-xl p-6 text-white">
-                    <div class="text-sm font-semibold mb-2">Road Warrior Champion</div>
-                    <div class="text-xl font-bold mb-1" id="topTeam">-</div>
-                    <div class="text-3xl font-black" id="topMiles">0</div>
-                    <div class="text-xs opacity-90">total miles</div>
-                </div>
-                <div class="bg-gradient-to-br from-green-500 to-teal-500 rounded-lg shadow-xl p-6 text-white">
-                    <div class="text-sm font-semibold mb-2">Home Field Advantage</div>
-                    <div class="text-xl font-bold mb-1" id="bottomTeam">-</div>
-                    <div class="text-3xl font-black" id="bottomMiles">0</div>
-                    <div class="text-xs opacity-90">total miles</div>
-                </div>
-                <div class="bg-gradient-to-br from-blue-500 to-indigo-500 rounded-lg shadow-xl p-6 text-white">
-                    <div class="text-sm font-semibold mb-2">Longest Single Trek</div>
-                    <div class="text-lg font-bold mb-1" id="longestRoute">-</div>
-                    <div class="text-3xl font-black" id="longestMiles">0</div>
-                    <div class="text-xs opacity-90">miles round trip</div>
-                </div>
-                 <div class="bg-gradient-to-br from-red-500 to-pink-500 rounded-lg shadow-xl p-6 text-white">
-                    <div class="text-sm font-semibold mb-2">League Travel Cost</div>
-                    <div class="text-3xl font-black" id="totalCost">$0</div>
-                    <div class="text-xs opacity-90 mt-1">@ $0.70/mile</div>
-                </div>
-                <div class="bg-gradient-to-br from-gray-600 to-gray-700 rounded-lg shadow-xl p-6 text-white">
-                    <div class="text-sm font-semibold mb-2">Carbon Footprint</div>
-                    <div class="text-3xl font-black" id="carbonFootprint">0</div>
-                    <div class="text-xs opacity-90 mt-1">metric tons of CO₂</div>
-                </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WSCL Distance Tracker</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-gray-900 text-gray-100 min-h-screen p-6">
+        <div class="max-w-7xl mx-auto">
+            <div
+                class="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg shadow-2xl p-8 mb-8"
+            >
+                <h1 class="text-4xl font-bold text-white mb-2">
+                    Washington State Student Cycling League
+                </h1>
+                <h2 class="text-2xl text-indigo-200">
+                    Race Travel Distance Tracker
+                </h2>
+                <p class="text-indigo-100 mt-4">
+                    Celebrating the teams that go the extra mile... and then
+                    some. <br />
+                    (Data since 2023)
+                </p>
             </div>
 
-            <div class="bg-gray-800 rounded-lg shadow-xl p-6 mb-8">
-                <h3 class="text-xl font-semibold mb-4">Filter & View</h3>
-                <div class="grid md:grid-cols-4 gap-4">
-                    <div>
-                        <label class="block text-sm font-medium mb-2">View By</label>
-                        <select id="viewMode" class="w-full bg-gray-700 border border-gray-600 rounded px-3 py-2">
-                            <option value="leaderboard">Leaderboard</option>
-                            <option value="race">By Venue Detail</option>
-                            <option value="team">By Team</option>
-                        </select>
-                    </div>
-                    <div id="leaderboardFilter">
-                        <label class="block text-sm font-medium mb-2">Season</label>
-                        <select id="seasonSelect" class="w-full bg-gray-700 border border-gray-600 rounded px-3 py-2">
-                        </select>
-                    </div>
-                    <div id="raceFilter" class="hidden">
-                        <label class="block text-sm font-medium mb-2">Race Venue</label>
-                        <select id="raceSelect" class="w-full bg-gray-700 border border-gray-600 rounded px-3 py-2">
-                        </select>
-                    </div>
-                    <div id="teamFilter" class="hidden">
-                        <label class="block text-sm font-medium mb-2">Team</label>
-                        <select id="teamSelect" class="w-full bg-gray-700 border border-gray-600 rounded px-3 py-2">
-                        </select>
-                    </div>
-                </div>
+            <div
+                id="loadingSection"
+                class="bg-gray-800 rounded-lg shadow-xl p-6 mb-8"
+            >
+                <p class="text-center">Loading data...</p>
             </div>
 
-            <div id="resultsDisplay"></div>
+            <div id="mainContent" class="hidden">
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-6 mb-8">
+                    <div
+                        class="bg-gradient-to-br from-yellow-500 to-orange-500 rounded-lg shadow-xl p-6 text-white"
+                    >
+                        <div class="text-sm font-semibold mb-2">
+                            Road Warrior Champion
+                        </div>
+                        <div class="text-xl font-bold mb-1" id="topTeam">-</div>
+                        <div class="text-3xl font-black" id="topMiles">0</div>
+                        <div class="text-xs opacity-90">total miles</div>
+                    </div>
+                    <div
+                        class="bg-gradient-to-br from-green-500 to-teal-500 rounded-lg shadow-xl p-6 text-white"
+                    >
+                        <div class="text-sm font-semibold mb-2">
+                            Home Field Advantage
+                        </div>
+                        <div class="text-xl font-bold mb-1" id="bottomTeam">
+                            -
+                        </div>
+                        <div class="text-3xl font-black" id="bottomMiles">
+                            0
+                        </div>
+                        <div class="text-xs opacity-90">total miles</div>
+                    </div>
+                    <div
+                        class="bg-gradient-to-br from-blue-500 to-indigo-500 rounded-lg shadow-xl p-6 text-white"
+                    >
+                        <div class="text-sm font-semibold mb-2">
+                            Longest Single Trek
+                        </div>
+                        <div class="text-lg font-bold mb-1" id="longestRoute">
+                            -
+                        </div>
+                        <div class="text-3xl font-black" id="longestMiles">
+                            0
+                        </div>
+                        <div class="text-xs opacity-90">miles round trip</div>
+                    </div>
+                    <div
+                        class="bg-gradient-to-br from-red-500 to-pink-500 rounded-lg shadow-xl p-6 text-white"
+                    >
+                        <div class="text-sm font-semibold mb-2">
+                            League Travel Cost
+                        </div>
+                        <div class="text-3xl font-black" id="totalCost">$0</div>
+                        <div class="text-xs opacity-90 mt-1">@ $0.70/mile</div>
+                    </div>
+                    <div
+                        class="bg-gradient-to-br from-gray-600 to-gray-700 rounded-lg shadow-xl p-6 text-white"
+                    >
+                        <div class="text-sm font-semibold mb-2">
+                            Carbon Footprint
+                        </div>
+                        <div class="text-3xl font-black" id="carbonFootprint">
+                            0
+                        </div>
+                        <div class="text-xs opacity-90 mt-1">
+                            metric tons of CO₂
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-800 rounded-lg shadow-xl p-6 mb-8">
+                    <h3 class="text-xl font-semibold mb-4">Filter & View</h3>
+                    <div class="grid md:grid-cols-4 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium mb-2"
+                                >View By</label
+                            >
+                            <select
+                                id="viewMode"
+                                class="w-full bg-gray-700 border border-gray-600 rounded px-3 py-2"
+                            >
+                                <option value="leaderboard">Leaderboard</option>
+                                <option value="race">By Venue Detail</option>
+                                <option value="team">By Team</option>
+                            </select>
+                        </div>
+                        <div id="leaderboardFilter">
+                            <label class="block text-sm font-medium mb-2"
+                                >Season</label
+                            >
+                            <select
+                                id="seasonSelect"
+                                class="w-full bg-gray-700 border border-gray-600 rounded px-3 py-2"
+                            ></select>
+                        </div>
+                        <div id="raceFilter" class="hidden">
+                            <label class="block text-sm font-medium mb-2"
+                                >Race Venue</label
+                            >
+                            <select
+                                id="raceSelect"
+                                class="w-full bg-gray-700 border border-gray-600 rounded px-3 py-2"
+                            ></select>
+                        </div>
+                        <div id="teamFilter" class="hidden">
+                            <label class="block text-sm font-medium mb-2"
+                                >Team</label
+                            >
+                            <select
+                                id="teamSelect"
+                                class="w-full bg-gray-700 border border-gray-600 rounded px-3 py-2"
+                            ></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="resultsDisplay"></div>
+            </div>
         </div>
-    </div>
 
-    <script>
-        let appData = null;
-        const MILEAGE_RATE = 0.70; // Federal mileage rate for 2025
-        const CO2_GRAMS_PER_MILE = 404; // Avg passenger vehicle
+        <script>
+            let appData = null;
+            const MILEAGE_RATE = 0.7; // Federal mileage rate for 2025
+            const CO2_GRAMS_PER_MILE = 404; // Avg passenger vehicle
 
-        function formatNumberWithCommas(number, decimals = 0) {
-            if (number === null || number === undefined) return '0';
-            return number.toLocaleString('en-US', { maximumFractionDigits: decimals, minimumFractionDigits: decimals });
-        }
-
-        function formatCurrency(miles) {
-            const cost = miles * MILEAGE_RATE;
-            return cost.toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
-        }
-
-        window.addEventListener('DOMContentLoaded', function() {
-            fetch('bike_league_data.json')
-                .then(response => {
-                    if (!response.ok) throw new Error('Could not load bike_league_data.json');
-                    return response.json();
-                })
-                .then(data => {
-                    appData = data;
-                    document.getElementById('loadingSection').classList.add('hidden');
-                    document.getElementById('mainContent').classList.remove('hidden');
-                    initializeApp();
-                })
-                .catch(error => {
-                    document.getElementById('loadingSection').innerHTML = `<p class="text-center text-red-400">Error: Could not load data.<br>${error.message}</p>`;
-                    console.error('Error loading data:', error);
+            function formatNumberWithCommas(number, decimals = 0) {
+                if (number === null || number === undefined) return "0";
+                return number.toLocaleString("en-US", {
+                    maximumFractionDigits: decimals,
+                    minimumFractionDigits: decimals,
                 });
-        });
-
-        function initializeApp() {
-            calculateFunStats();
-            populateFilters();
-            setupEventListeners();
-            updateDisplay();
-        }
-
-        function calculateFunStats() {
-            const sorted = Object.entries(appData.distances).sort((a, b) => b[1].total_miles_events - a[1].total_miles_events);
-
-            document.getElementById('topTeam').textContent = sorted[0][0];
-            document.getElementById('topMiles').textContent = formatNumberWithCommas(sorted[0][1].total_miles_events);
-
-            document.getElementById('bottomTeam').textContent = sorted[sorted.length - 1][0];
-            document.getElementById('bottomMiles').textContent = formatNumberWithCommas(sorted[sorted.length - 1][1].total_miles_events);
-
-            let longest = { team: '', venue: '', miles: 0 };
-            Object.entries(appData.distances).forEach(([team, data]) => {
-                Object.entries(data.venues).forEach(([venue, distData]) => {
-                    if (distData.miles > longest.miles) {
-                        longest = { team, venue, miles: distData.miles };
-                    }
-                });
-            });
-            document.getElementById('longestRoute').textContent = `${longest.team} to ${longest.venue.split(',')[0]}`;
-            document.getElementById('longestMiles').textContent = formatNumberWithCommas(longest.miles);
-
-            const totalLeagueMiles = sorted.reduce((sum, [_, data]) => sum + data.total_miles_events, 0);
-            document.getElementById('totalCost').textContent = formatCurrency(totalLeagueMiles);
-
-            const carbonTons = (totalLeagueMiles * CO2_GRAMS_PER_MILE) / 1000000; // Convert grams to metric tons
-            document.getElementById('carbonFootprint').textContent = carbonTons.toFixed(1);
-        }
-
-        function populateFilters() {
-            const seasons = [...new Set(appData.events.map(r => `${r.year} ${r.season}`))].sort().reverse();
-            const seasonSelect = document.getElementById('seasonSelect');
-            seasonSelect.innerHTML = `<option value="all-time">All Time</option>`;
-            seasons.forEach(season => {
-                const opt = document.createElement('option');
-                opt.value = season;
-                opt.textContent = season;
-                seasonSelect.appendChild(opt);
-            });
-
-            const locations = [...new Set(appData.events.map(r => r.location_key))].sort();
-            const raceSelect = document.getElementById('raceSelect');
-            locations.forEach(loc => {
-                const opt = document.createElement('option');
-                opt.value = loc;
-                opt.textContent = loc;
-                raceSelect.appendChild(opt);
-            });
-
-            const teams = Object.keys(appData.distances).sort();
-            const teamSelect = document.getElementById('teamSelect');
-            teams.forEach(team => {
-                const opt = document.createElement('option');
-                opt.value = team;
-                opt.textContent = team;
-                teamSelect.appendChild(opt);
-            });
-        }
-
-        function setupEventListeners() {
-            document.getElementById('viewMode').addEventListener('change', (e) => {
-                const mode = e.target.value;
-                document.getElementById('leaderboardFilter').classList.toggle('hidden', mode !== 'leaderboard');
-                document.getElementById('raceFilter').classList.toggle('hidden', mode !== 'race');
-                document.getElementById('teamFilter').classList.toggle('hidden', mode !== 'team');
-                updateDisplay();
-            });
-            ['seasonSelect', 'raceSelect', 'teamSelect'].forEach(id => {
-                document.getElementById(id).addEventListener('change', updateDisplay);
-            });
-        }
-
-        function updateDisplay() {
-            const mode = document.getElementById('viewMode').value;
-            const display = document.getElementById('resultsDisplay');
-            switch(mode) {
-                case 'leaderboard': display.innerHTML = renderLeaderboardView(); break;
-                case 'race': display.innerHTML = renderRaceView(); break;
-                case 'team': display.innerHTML = renderTeamView(); break;
             }
-        }
 
-        function renderLeaderboardView() {
-            const selectedSeason = document.getElementById('seasonSelect').value;
-            const isAllTime = selectedSeason === 'all-time';
-
-            let totals = {};
-            let title = 'All Time Leaderboard (Averages Per Race)';
-            let numRaces = 0;
-
-            if (isAllTime) {
-                numRaces = appData.metadata.total_events;
-                Object.entries(appData.distances).forEach(([team, data]) => {
-                    totals[team] = { miles: data.total_miles_events, hours: data.total_hours_events };
+            function formatCurrency(miles) {
+                const cost = miles * MILEAGE_RATE;
+                return cost.toLocaleString("en-US", {
+                    style: "currency",
+                    currency: "USD",
+                    maximumFractionDigits: 0,
                 });
-            } else {
-                title = `${selectedSeason} Leaderboard (Averages Per Race)`;
-                const [year, seasonName] = selectedSeason.split(' ');
-                const seasonRaces = appData.events.filter(event => event.year === year && event.season === seasonName);
-                numRaces = seasonRaces.length;
-                const seasonRaceKeys = seasonRaces.map(event => event.location_key);
+            }
 
-                Object.entries(appData.distances).forEach(([team, data]) => {
-                    let seasonMiles = 0, seasonHours = 0;
-                    seasonRaceKeys.forEach(raceKey => {
-                        seasonMiles += data.venues[raceKey]?.miles || 0;
-                        seasonHours += data.venues[raceKey]?.hours || 0;
+            window.addEventListener("DOMContentLoaded", function () {
+                fetch("bike_league_data.json")
+                    .then((response) => {
+                        if (!response.ok)
+                            throw new Error(
+                                "Could not load bike_league_data.json",
+                            );
+                        return response.json();
+                    })
+                    .then((data) => {
+                        appData = data;
+                        document
+                            .getElementById("loadingSection")
+                            .classList.add("hidden");
+                        document
+                            .getElementById("mainContent")
+                            .classList.remove("hidden");
+                        initializeApp();
+                    })
+                    .catch((error) => {
+                        document.getElementById("loadingSection").innerHTML =
+                            `<p class="text-center text-red-400">Error: Could not load data.<br>${error.message}</p>`;
+                        console.error("Error loading data:", error);
                     });
-                    totals[team] = { miles: seasonMiles, hours: seasonHours };
+            });
+
+            function initializeApp() {
+                calculateFunStats();
+                populateFilters();
+                setupEventListeners();
+                updateDisplay();
+            }
+
+            function calculateFunStats() {
+                const sorted = Object.entries(appData.distances).sort(
+                    (a, b) => b[1].total_miles_events - a[1].total_miles_events,
+                );
+
+                document.getElementById("topTeam").textContent = sorted[0][0];
+                document.getElementById("topMiles").textContent =
+                    formatNumberWithCommas(sorted[0][1].total_miles_events);
+
+                document.getElementById("bottomTeam").textContent =
+                    sorted[sorted.length - 1][0];
+                document.getElementById("bottomMiles").textContent =
+                    formatNumberWithCommas(
+                        sorted[sorted.length - 1][1].total_miles_events,
+                    );
+
+                let longest = { team: "", venue: "", miles: 0 };
+                Object.entries(appData.distances).forEach(([team, data]) => {
+                    Object.entries(data.venues).forEach(([venue, distData]) => {
+                        if (distData.miles > longest.miles) {
+                            longest = { team, venue, miles: distData.miles };
+                        }
+                    });
+                });
+                document.getElementById("longestRoute").textContent =
+                    `${longest.team} to ${longest.venue.split(",")[0]}`;
+                document.getElementById("longestMiles").textContent =
+                    formatNumberWithCommas(longest.miles);
+
+                const totalLeagueMiles = sorted.reduce(
+                    (sum, [_, data]) => sum + data.total_miles_events,
+                    0,
+                );
+                document.getElementById("totalCost").textContent =
+                    formatCurrency(totalLeagueMiles);
+
+                const carbonTons =
+                    (totalLeagueMiles * CO2_GRAMS_PER_MILE) / 1000000; // Convert grams to metric tons
+                document.getElementById("carbonFootprint").textContent =
+                    carbonTons.toFixed(1);
+            }
+
+            function populateFilters() {
+                const seasons = [
+                    ...new Set(
+                        appData.events.map((r) => `${r.year} ${r.season}`),
+                    ),
+                ]
+                    .sort()
+                    .reverse();
+                const seasonSelect = document.getElementById("seasonSelect");
+                seasonSelect.innerHTML = `<option value="all-time">All Time</option>`;
+                seasons.forEach((season) => {
+                    const opt = document.createElement("option");
+                    opt.value = season;
+                    opt.textContent = season;
+                    seasonSelect.appendChild(opt);
+                });
+
+                const locations = [
+                    ...new Set(appData.events.map((r) => r.location_key)),
+                ].sort();
+                const raceSelect = document.getElementById("raceSelect");
+                locations.forEach((loc) => {
+                    const opt = document.createElement("option");
+                    opt.value = loc;
+                    opt.textContent = loc;
+                    raceSelect.appendChild(opt);
+                });
+
+                const teams = Object.keys(appData.distances).sort();
+                const teamSelect = document.getElementById("teamSelect");
+                teams.forEach((team) => {
+                    const opt = document.createElement("option");
+                    opt.value = team;
+                    opt.textContent = team;
+                    teamSelect.appendChild(opt);
                 });
             }
 
-            const sorted = Object.entries(totals).sort((a, b) => b[1].miles - a[1].miles);
+            function setupEventListeners() {
+                document
+                    .getElementById("viewMode")
+                    .addEventListener("change", (e) => {
+                        const mode = e.target.value;
+                        document
+                            .getElementById("leaderboardFilter")
+                            .classList.toggle("hidden", mode !== "leaderboard");
+                        document
+                            .getElementById("raceFilter")
+                            .classList.toggle("hidden", mode !== "race");
+                        document
+                            .getElementById("teamFilter")
+                            .classList.toggle("hidden", mode !== "team");
+                        updateDisplay();
+                    });
+                ["seasonSelect", "raceSelect", "teamSelect"].forEach((id) => {
+                    document
+                        .getElementById(id)
+                        .addEventListener("change", updateDisplay);
+                });
+            }
 
-            let html = '<div class="bg-gray-800 rounded-lg shadow-xl p-6">';
-            html += `<h2 class="text-2xl font-bold mb-6">${title}</h2>`;
-            html += '<div class="space-y-3">';
+            function updateDisplay() {
+                const mode = document.getElementById("viewMode").value;
+                const display = document.getElementById("resultsDisplay");
+                switch (mode) {
+                    case "leaderboard":
+                        display.innerHTML = renderLeaderboardView();
+                        break;
+                    case "race":
+                        display.innerHTML = renderRaceView();
+                        break;
+                    case "team":
+                        display.innerHTML = renderTeamView();
+                        break;
+                }
+            }
 
-            sorted.forEach(([team, data], idx) => {
-                const medal = idx === 0 ? '🥇' : idx === 1 ? '🥈' : idx === 2 ? '🥉' : '';
-                const bgColor = idx === 0 ? 'from-yellow-600 to-orange-600' :
-                               idx === 1 ? 'from-gray-400 to-gray-500' :
-                               idx === 2 ? 'from-orange-700 to-orange-800' : 'from-gray-700 to-gray-800';
+            function renderLeaderboardView() {
+                const selectedSeason =
+                    document.getElementById("seasonSelect").value;
+                const isAllTime = selectedSeason === "all-time";
 
-                const avgMiles = numRaces > 0 ? data.miles / numRaces : 0;
-                const avgHours = numRaces > 0 ? data.hours / numRaces : 0;
-                const totalCO2 = (data.miles * CO2_GRAMS_PER_MILE) / 1000000;
+                let totals = {};
+                let title = "All Time Leaderboard (Averages Per Race)";
+                let numRaces = 0;
 
-                html += `
+                if (isAllTime) {
+                    numRaces = appData.metadata.total_events;
+                    Object.entries(appData.distances).forEach(
+                        ([team, data]) => {
+                            totals[team] = {
+                                miles: data.total_miles_events,
+                                hours: data.total_hours_events,
+                            };
+                        },
+                    );
+                } else {
+                    title = `${selectedSeason} Leaderboard (Averages Per Race)`;
+                    const [year, seasonName] = selectedSeason.split(" ");
+                    const seasonRaces = appData.events.filter(
+                        (event) =>
+                            event.year === year && event.season === seasonName,
+                    );
+                    numRaces = seasonRaces.length;
+                    const seasonRaceKeys = seasonRaces.map(
+                        (event) => event.location_key,
+                    );
+
+                    Object.entries(appData.distances).forEach(
+                        ([team, data]) => {
+                            let seasonMiles = 0,
+                                seasonHours = 0;
+                            seasonRaceKeys.forEach((raceKey) => {
+                                seasonMiles += data.venues[raceKey]?.miles || 0;
+                                seasonHours += data.venues[raceKey]?.hours || 0;
+                            });
+                            totals[team] = {
+                                miles: seasonMiles,
+                                hours: seasonHours,
+                            };
+                        },
+                    );
+                }
+
+                const sorted = Object.entries(totals).sort(
+                    (a, b) => b[1].miles - a[1].miles,
+                );
+
+                let html = '<div class="bg-gray-800 rounded-lg shadow-xl p-6">';
+                html += `<h2 class="text-2xl font-bold mb-6">${title}</h2>`;
+                html += '<div class="space-y-3">';
+
+                sorted.forEach(([team, data], idx) => {
+                    const medal =
+                        idx === 0
+                            ? "🥇"
+                            : idx === 1
+                              ? "🥈"
+                              : idx === 2
+                                ? "🥉"
+                                : "";
+                    const bgColor =
+                        idx === 0
+                            ? "from-yellow-600 to-orange-600"
+                            : idx === 1
+                              ? "from-gray-400 to-gray-500"
+                              : idx === 2
+                                ? "from-orange-700 to-orange-800"
+                                : "from-gray-700 to-gray-800";
+
+                    const avgMiles = numRaces > 0 ? data.miles / numRaces : 0;
+                    const avgHours = numRaces > 0 ? data.hours / numRaces : 0;
+                    const totalCO2 =
+                        (data.miles * CO2_GRAMS_PER_MILE) / 1000000;
+
+                    html += `
                     <div class="bg-gradient-to-r ${bgColor} rounded-lg p-4 flex items-center justify-between">
                         <div class="flex items-center gap-4 w-1/3">
-                            <div class="text-3xl w-12 text-center">${medal || (idx + 1)}</div>
+                            <div class="text-3xl w-12 text-center">${medal || idx + 1}</div>
                             <div class="font-bold text-lg">${team}</div>
                         </div>
                         <div class="grid grid-cols-4 gap-2 md:gap-4 text-right w-2/3">
@@ -275,87 +423,106 @@
                         </div>
                     </div>
                 `;
-            });
-            html += '</div></div>';
-            return html;
-        }
+                });
+                html += "</div></div>";
+                return html;
+            }
 
-        function renderRaceView() {
-            const raceKey = document.getElementById('raceSelect').value;
-            const raceDistances = Object.entries(appData.distances)
-                .map(([team, data]) => ({ team, miles: data.venues[raceKey]?.miles || 0 }))
-                .filter(item => item.miles > 0)
-                .sort((a, b) => b.miles - a.miles);
+            function renderRaceView() {
+                const raceKey = document.getElementById("raceSelect").value;
+                const raceDistances = Object.entries(appData.distances)
+                    .map(([team, data]) => ({
+                        team,
+                        miles: data.venues[raceKey]?.miles || 0,
+                    }))
+                    .filter((item) => item.miles > 0)
+                    .sort((a, b) => b.miles - a.miles);
 
-            let html = '<div class="bg-gray-800 rounded-lg shadow-xl p-6">';
-            html += `<h2 class="text-2xl font-bold mb-2">${raceKey}</h2>`;
-            html += `<p class="text-gray-400 mb-6">Team travel distances to this venue</p>`;
-            html += '<div class="overflow-x-auto"><table class="w-full">';
-            html += '<thead><tr class="border-b border-gray-700"><th class="text-left py-3 px-4">Rank</th><th class="text-left py-3 px-4">Team</th><th class="text-right py-3 px-4">Round Trip Distance</th></tr></thead><tbody>';
+                let html = '<div class="bg-gray-800 rounded-lg shadow-xl p-6">';
+                html += `<h2 class="text-2xl font-bold mb-2">${raceKey}</h2>`;
+                html += `<p class="text-gray-400 mb-6">Team travel distances to this venue</p>`;
+                html += '<div class="overflow-x-auto"><table class="w-full">';
+                html +=
+                    '<thead><tr class="border-b border-gray-700"><th class="text-left py-3 px-4">Rank</th><th class="text-left py-3 px-4">Team</th><th class="text-right py-3 px-4">Round Trip Distance</th></tr></thead><tbody>';
 
-            raceDistances.forEach((entry, idx) => {
-                const color = idx === 0 ? 'text-red-400' : (idx === raceDistances.length - 1 ? 'text-green-400' : 'text-indigo-400');
-                const note = idx === 0 ? ' (furthest!)' : (idx === raceDistances.length - 1 ? ' (home turf!)' : '');
-                html += `<tr class="border-b border-gray-700 hover:bg-gray-700">
+                raceDistances.forEach((entry, idx) => {
+                    const color =
+                        idx === 0
+                            ? "text-red-400"
+                            : idx === raceDistances.length - 1
+                              ? "text-green-400"
+                              : "text-indigo-400";
+                    const note =
+                        idx === 0
+                            ? " (furthest!)"
+                            : idx === raceDistances.length - 1
+                              ? " (home turf!)"
+                              : "";
+                    html += `<tr class="border-b border-gray-700 hover:bg-gray-700">
                         <td class="py-3 px-4">${idx + 1}</td>
                         <td class="py-3 px-4 font-semibold">${entry.team}</td>
                         <td class="py-3 px-4 text-right font-bold ${color}">${entry.miles.toFixed(1)} mi${note}</td>
                     </tr>`;
-            });
-            html += '</tbody></table></div></div>';
-            return html;
-        }
+                });
+                html += "</tbody></table></div></div>";
+                return html;
+            }
 
-        function renderTeamView() {
-            const teamName = document.getElementById('teamSelect').value;
-            const teamData = appData.distances[teamName];
-            const teamInfo = appData.teams.find(t => t.name === teamName);
+            function renderTeamView() {
+                const teamName = document.getElementById("teamSelect").value;
+                const teamData = appData.distances[teamName];
+                const teamInfo = appData.teams.find((t) => t.name === teamName);
 
-            const events = appData.events
-                .map(event => ({
-                    ...event,
-                    miles: teamData.venues[event.location_key]?.miles || 0,
-                    hours: teamData.venues[event.location_key]?.hours || 0,
-                }))
-                .sort((a, b) => new Date(`${a.month}/${a.day}/${a.year}`) - new Date(`${b.month}/${b.day}/${b.year}`));
+                const events = appData.events
+                    .map((event) => ({
+                        ...event,
+                        miles: teamData.venues[event.location_key]?.miles || 0,
+                        hours: teamData.venues[event.location_key]?.hours || 0,
+                    }))
+                    .sort(
+                        (a, b) =>
+                            new Date(`${a.month}/${a.day}/${a.year}`) -
+                            new Date(`${b.month}/${b.day}/${b.year}`),
+                    );
 
-            let html = '<div class="bg-gray-800 rounded-lg shadow-xl p-6">';
-            html += `<h2 class="text-2xl font-bold mb-2">${teamName}</h2>`;
-            html += `<p class="text-gray-400 mb-6">${teamInfo ? `${teamInfo.city}, ${teamInfo.state}` : ''}</p>`;
-            html += '<div class="grid md:grid-cols-4 gap-4 mb-6">';
-            html += `<div class="bg-gray-700 rounded p-4">
+                let html = '<div class="bg-gray-800 rounded-lg shadow-xl p-6">';
+                html += `<h2 class="text-2xl font-bold mb-2">${teamName}</h2>`;
+                html += `<p class="text-gray-400 mb-6">${teamInfo ? `${teamInfo.city}, ${teamInfo.state}` : ""}</p>`;
+                html += '<div class="grid md:grid-cols-4 gap-4 mb-6">';
+                html += `<div class="bg-gray-700 rounded p-4">
                         <div class="text-sm text-gray-400">Total Miles</div>
                         <div class="text-2xl font-bold text-indigo-400">${formatNumberWithCommas(teamData.total_miles_events)}</div>
                      </div>`;
-            html += `<div class="bg-gray-700 rounded p-4">
+                html += `<div class="bg-gray-700 rounded p-4">
                         <div class="text-sm text-gray-400">Total Hours</div>
                         <div class="text-2xl font-bold text-yellow-400">${teamData.total_hours_events.toFixed(1)}</div>
                      </div>`;
-            html += `<div class="bg-gray-700 rounded p-4">
+                html += `<div class="bg-gray-700 rounded p-4">
                         <div class="text-sm text-gray-400">Total Cost</div>
                         <div class="text-2xl font-bold text-green-400">${formatCurrency(teamData.total_miles_events)}</div>
                      </div>`;
-             html += `<div class="bg-gray-700 rounded p-4">
+                html += `<div class="bg-gray-700 rounded p-4">
                         <div class="text-sm text-gray-400">Avg. Trip</div>
                         <div class="text-2xl font-bold text-red-400">${(teamData.total_miles_events / events.length).toFixed(1)} mi</div>
                      </div>`;
-            html += '</div>';
+                html += "</div>";
 
-            html += '<div class="overflow-x-auto"><table class="w-full">';
-            html += '<thead><tr class="border-b border-gray-700"><th class="text-left py-3 px-4">Date</th><th class="text-left py-3 px-4">Location</th><th class="text-left py-3 px-4">Season</th><th class="text-right py-3 px-4">Distance (mi)</th><th class="text-right py-3 px-4">Time (hrs)</th></tr></thead><tbody>';
+                html += '<div class="overflow-x-auto"><table class="w-full">';
+                html +=
+                    '<thead><tr class="border-b border-gray-700"><th class="text-left py-3 px-4">Date</th><th class="text-left py-3 px-4">Location</th><th class="text-left py-3 px-4">Season</th><th class="text-right py-3 px-4">Distance (mi)</th><th class="text-right py-3 px-4">Time (hrs)</th></tr></thead><tbody>';
 
-            events.forEach((entry) => {
-                html += `<tr class="border-b border-gray-700 hover:bg-gray-700">
-                        <td class="py-3 px-4">${entry.date || '-'}</td>
+                events.forEach((entry) => {
+                    html += `<tr class="border-b border-gray-700 hover:bg-gray-700">
+                        <td class="py-3 px-4">${entry.date || "-"}</td>
                         <td class="py-3 px-4 font-semibold">${entry.location_key}</td>
                         <td class="py-3 px-4">${entry.year} ${entry.season}</td>
                         <td class="py-3 px-4 text-right font-bold text-indigo-400">${entry.miles.toFixed(1)}</td>
                         <td class="py-3 px-4 text-right font-bold text-yellow-400">${entry.hours.toFixed(1)}</td>
                     </tr>`;
-            });
-            html += '</tbody></table></div></div>';
-            return html;
-        }
-    </script>
-</body>
+                });
+                html += "</tbody></table></div></div>";
+                return html;
+            }
+        </script>
+    </body>
 </html>
