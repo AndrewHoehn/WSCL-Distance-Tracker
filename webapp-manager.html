@@ -19,18 +19,18 @@
         </div>
 
         <div id="mainContent" class="hidden">
-            <div class="grid md:grid-cols-4 gap-6 mb-8">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-6 mb-8">
                 <div class="bg-gradient-to-br from-yellow-500 to-orange-500 rounded-lg shadow-xl p-6 text-white">
                     <div class="text-sm font-semibold mb-2">Road Warrior Champion</div>
-                    <div class="text-2xl font-bold mb-1" id="topTeam">-</div>
+                    <div class="text-xl font-bold mb-1" id="topTeam">-</div>
                     <div class="text-3xl font-black" id="topMiles">0</div>
                     <div class="text-xs opacity-90">total miles</div>
                 </div>
                 <div class="bg-gradient-to-br from-green-500 to-teal-500 rounded-lg shadow-xl p-6 text-white">
                     <div class="text-sm font-semibold mb-2">Home Field Advantage</div>
-                    <div class="text-2xl font-bold mb-1" id="bottomTeam">-</div>
+                    <div class="text-xl font-bold mb-1" id="bottomTeam">-</div>
                     <div class="text-3xl font-black" id="bottomMiles">0</div>
-                    <div class="text-xs opacity-90">total miles (lucky!)</div>
+                    <div class="text-xs opacity-90">total miles</div>
                 </div>
                 <div class="bg-gradient-to-br from-blue-500 to-indigo-500 rounded-lg shadow-xl p-6 text-white">
                     <div class="text-sm font-semibold mb-2">Longest Single Trek</div>
@@ -38,10 +38,15 @@
                     <div class="text-3xl font-black" id="longestMiles">0</div>
                     <div class="text-xs opacity-90">miles round trip</div>
                 </div>
-                <div class="bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg shadow-xl p-6 text-white">
-                    <div class="text-sm font-semibold mb-2">Average Per Team</div>
-                    <div class="text-3xl font-black" id="avgMiles">0</div>
-                    <div class="text-xs opacity-90 mt-1">miles across all races</div>
+                 <div class="bg-gradient-to-br from-red-500 to-pink-500 rounded-lg shadow-xl p-6 text-white">
+                    <div class="text-sm font-semibold mb-2">League Travel Cost</div>
+                    <div class="text-3xl font-black" id="totalCost">$0</div>
+                    <div class="text-xs opacity-90 mt-1">@ $0.70/mile</div>
+                </div>
+                <div class="bg-gradient-to-br from-gray-600 to-gray-700 rounded-lg shadow-xl p-6 text-white">
+                    <div class="text-sm font-semibold mb-2">Carbon Footprint</div>
+                    <div class="text-3xl font-black" id="carbonFootprint">0</div>
+                    <div class="text-xs opacity-90 mt-1">metric tons of CO₂</div>
                 </div>
             </div>
 
@@ -80,10 +85,17 @@
 
     <script>
         let appData = null;
+        const MILEAGE_RATE = 0.70; // Federal mileage rate for 2025
+        const CO2_GRAMS_PER_MILE = 404; // Avg passenger vehicle
 
-        function formatNumberWithCommas(number) {
+        function formatNumberWithCommas(number, decimals = 0) {
             if (number === null || number === undefined) return '0';
-            return Math.round(number).toLocaleString('en-US');
+            return number.toLocaleString('en-US', { maximumFractionDigits: decimals, minimumFractionDigits: decimals });
+        }
+
+        function formatCurrency(miles) {
+            const cost = miles * MILEAGE_RATE;
+            return cost.toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
         }
 
         window.addEventListener('DOMContentLoaded', function() {
@@ -131,8 +143,11 @@
             document.getElementById('longestRoute').textContent = `${longest.team} to ${longest.venue.split(',')[0]}`;
             document.getElementById('longestMiles').textContent = formatNumberWithCommas(longest.miles);
 
-            const avg = sorted.reduce((sum, [_, data]) => sum + data.total_miles_events, 0) / sorted.length;
-            document.getElementById('avgMiles').textContent = formatNumberWithCommas(avg);
+            const totalLeagueMiles = sorted.reduce((sum, [_, data]) => sum + data.total_miles_events, 0);
+            document.getElementById('totalCost').textContent = formatCurrency(totalLeagueMiles);
+
+            const carbonTons = (totalLeagueMiles * CO2_GRAMS_PER_MILE) / 1000000; // Convert grams to metric tons
+            document.getElementById('carbonFootprint').textContent = carbonTons.toFixed(1);
         }
 
         function populateFilters() {
@@ -193,24 +208,23 @@
             const isAllTime = selectedSeason === 'all-time';
 
             let totals = {};
-            let title = 'All Time Distance Leaderboard';
+            let title = 'All Time Leaderboard (Averages Per Race)';
+            let numRaces = 0;
 
             if (isAllTime) {
+                numRaces = appData.metadata.total_events;
                 Object.entries(appData.distances).forEach(([team, data]) => {
                     totals[team] = { miles: data.total_miles_events, hours: data.total_hours_events };
                 });
             } else {
-                title = `${selectedSeason} Distance Leaderboard`;
+                title = `${selectedSeason} Leaderboard (Averages Per Race)`;
                 const [year, seasonName] = selectedSeason.split(' ');
-
-                // Get the specific races for the selected year and season
                 const seasonRaces = appData.events.filter(event => event.year === year && event.season === seasonName);
+                numRaces = seasonRaces.length;
                 const seasonRaceKeys = seasonRaces.map(event => event.location_key);
 
-                // Manually calculate the totals for each team for that specific season
                 Object.entries(appData.distances).forEach(([team, data]) => {
-                    let seasonMiles = 0;
-                    let seasonHours = 0;
+                    let seasonMiles = 0, seasonHours = 0;
                     seasonRaceKeys.forEach(raceKey => {
                         seasonMiles += data.venues[raceKey]?.miles || 0;
                         seasonHours += data.venues[raceKey]?.hours || 0;
@@ -231,20 +245,32 @@
                                idx === 1 ? 'from-gray-400 to-gray-500' :
                                idx === 2 ? 'from-orange-700 to-orange-800' : 'from-gray-700 to-gray-800';
 
+                const avgMiles = numRaces > 0 ? data.miles / numRaces : 0;
+                const avgHours = numRaces > 0 ? data.hours / numRaces : 0;
+                const totalCO2 = (data.miles * CO2_GRAMS_PER_MILE) / 1000000;
+
                 html += `
                     <div class="bg-gradient-to-r ${bgColor} rounded-lg p-4 flex items-center justify-between">
-                        <div class="flex items-center gap-4">
+                        <div class="flex items-center gap-4 w-1/3">
                             <div class="text-3xl w-12 text-center">${medal || (idx + 1)}</div>
                             <div class="font-bold text-lg">${team}</div>
                         </div>
-                        <div class="flex gap-6 sm:gap-8 text-right">
+                        <div class="grid grid-cols-4 gap-2 md:gap-4 text-right w-2/3">
                              <div>
-                                <div class="text-3xl font-black">${formatNumberWithCommas(data.miles)}</div>
-                                <div class="text-sm opacity-80">miles</div>
+                                <div class="text-lg md:text-2xl font-black">${formatNumberWithCommas(avgMiles, 1)}</div>
+                                <div class="text-xs opacity-80">Avg Miles/Race</div>
                              </div>
                              <div>
-                                <div class="text-3xl font-black">${data.hours.toFixed(1)}</div>
-                                <div class="text-sm opacity-80">hours</div>
+                                <div class="text-lg md:text-2xl font-black">${avgHours.toFixed(1)}</div>
+                                <div class="text-xs opacity-80">Avg Hours/Race</div>
+                             </div>
+                             <div>
+                                <div class="text-lg md:text-2xl font-black">${formatCurrency(avgMiles)}</div>
+                                <div class="text-xs opacity-80">Avg Cost/Race</div>
+                             </div>
+                              <div>
+                                <div class="text-lg md:text-2xl font-black">${totalCO2.toFixed(2)}</div>
+                                <div class="text-xs opacity-80">Total CO₂ (t)</div>
                              </div>
                         </div>
                     </div>
@@ -286,38 +312,45 @@
             const teamInfo = appData.teams.find(t => t.name === teamName);
 
             const events = appData.events
-                .map(event => ({ ...event, miles: teamData.venues[event.location_key]?.miles || 0 }))
+                .map(event => ({
+                    ...event,
+                    miles: teamData.venues[event.location_key]?.miles || 0,
+                    hours: teamData.venues[event.location_key]?.hours || 0,
+                }))
                 .sort((a, b) => new Date(`${a.month}/${a.day}/${a.year}`) - new Date(`${b.month}/${b.day}/${b.year}`));
-
-            const sortedByMiles = [...events].sort((a, b) => b.miles - a.miles);
 
             let html = '<div class="bg-gray-800 rounded-lg shadow-xl p-6">';
             html += `<h2 class="text-2xl font-bold mb-2">${teamName}</h2>`;
             html += `<p class="text-gray-400 mb-6">${teamInfo ? `${teamInfo.city}, ${teamInfo.state}` : ''}</p>`;
-            html += '<div class="grid md:grid-cols-3 gap-4 mb-6">';
+            html += '<div class="grid md:grid-cols-4 gap-4 mb-6">';
             html += `<div class="bg-gray-700 rounded p-4">
-                        <div class="text-sm text-gray-400">Total Distance</div>
-                        <div class="text-2xl font-bold text-indigo-400">${formatNumberWithCommas(teamData.total_miles_events)} mi</div>
+                        <div class="text-sm text-gray-400">Total Miles</div>
+                        <div class="text-2xl font-bold text-indigo-400">${formatNumberWithCommas(teamData.total_miles_events)}</div>
                      </div>`;
             html += `<div class="bg-gray-700 rounded p-4">
-                        <div class="text-sm text-gray-400">Longest Trip</div>
-                        <div class="text-2xl font-bold text-red-400">${sortedByMiles[0].miles.toFixed(1)} mi</div>
+                        <div class="text-sm text-gray-400">Total Hours</div>
+                        <div class="text-2xl font-bold text-yellow-400">${teamData.total_hours_events.toFixed(1)}</div>
                      </div>`;
             html += `<div class="bg-gray-700 rounded p-4">
-                        <div class="text-sm text-gray-400">Shortest Trip</div>
-                        <div class="text-2xl font-bold text-green-400">${sortedByMiles[sortedByMiles.length-1].miles.toFixed(1)} mi</div>
+                        <div class="text-sm text-gray-400">Total Cost</div>
+                        <div class="text-2xl font-bold text-green-400">${formatCurrency(teamData.total_miles_events)}</div>
+                     </div>`;
+             html += `<div class="bg-gray-700 rounded p-4">
+                        <div class="text-sm text-gray-400">Avg. Trip</div>
+                        <div class="text-2xl font-bold text-red-400">${(teamData.total_miles_events / events.length).toFixed(1)} mi</div>
                      </div>`;
             html += '</div>';
 
             html += '<div class="overflow-x-auto"><table class="w-full">';
-            html += '<thead><tr class="border-b border-gray-700"><th class="text-left py-3 px-4">Date</th><th class="text-left py-3 px-4">Location</th><th class="text-left py-3 px-4">Season</th><th class="text-right py-3 px-4">Distance</th></tr></thead><tbody>';
+            html += '<thead><tr class="border-b border-gray-700"><th class="text-left py-3 px-4">Date</th><th class="text-left py-3 px-4">Location</th><th class="text-left py-3 px-4">Season</th><th class="text-right py-3 px-4">Distance (mi)</th><th class="text-right py-3 px-4">Time (hrs)</th></tr></thead><tbody>';
 
             events.forEach((entry) => {
                 html += `<tr class="border-b border-gray-700 hover:bg-gray-700">
                         <td class="py-3 px-4">${entry.date || '-'}</td>
                         <td class="py-3 px-4 font-semibold">${entry.location_key}</td>
                         <td class="py-3 px-4">${entry.year} ${entry.season}</td>
-                        <td class="py-3 px-4 text-right font-bold text-indigo-400">${entry.miles.toFixed(1)} mi</td>
+                        <td class="py-3 px-4 text-right font-bold text-indigo-400">${entry.miles.toFixed(1)}</td>
+                        <td class="py-3 px-4 text-right font-bold text-yellow-400">${entry.hours.toFixed(1)}</td>
                     </tr>`;
             });
             html += '</tbody></table></div></div>';
