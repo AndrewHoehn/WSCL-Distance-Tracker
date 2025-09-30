@@ -2,7 +2,7 @@
   "teams": [
     {
       "name": "Anacortes Composite",
-      "city": "Anacortes Composite  Anacortes",
+      "city": "Anacortes",
       "state": "WA",
       "zip": "98221",
       "geocoded": {
@@ -26,7 +26,7 @@
     },
     {
       "name": "Bellingham XCO",
-      "city": "Bellingham XCO  Bellingham",
+      "city": "Bellingham",
       "state": "WA",
       "zip": "98225",
       "geocoded": {
@@ -50,7 +50,7 @@
     },
     {
       "name": "Capitol City MTB",
-      "city": "Capitol City MTB  Olympia",
+      "city": "Olympia",
       "state": "WA",
       "zip": "98501",
       "geocoded": {
@@ -62,7 +62,7 @@
     },
     {
       "name": "Cedarcrest MTB",
-      "city": "Cedarcrest MTB  Cedarcrest",
+      "city": "Cedarcrest",
       "state": "WA",
       "zip": "98270",
       "geocoded": {
@@ -74,7 +74,7 @@
     },
     {
       "name": "Edmonds Composite",
-      "city": "Edmonds Composite  Edmonds",
+      "city": "Edmonds",
       "state": "WA",
       "zip": "98020",
       "geocoded": {
@@ -86,7 +86,7 @@
     },
     {
       "name": "Icicle Bicycle",
-      "city": "Icicle Bicycle  Leavenworth",
+      "city": "Leavenworth",
       "state": "WA",
       "zip": "98826",
       "geocoded": {
@@ -98,7 +98,7 @@
     },
     {
       "name": "Inland NW (Spokane)",
-      "city": "Inland NW (Spokane)  Spokane",
+      "city": "Spokane",
       "state": "WA",
       "zip": "99202",
       "geocoded": {
@@ -110,7 +110,7 @@
     },
     {
       "name": "Issaquah Composite",
-      "city": "Issaquah Composite  Issaquah",
+      "city": "Issaquah",
       "state": "WA",
       "zip": "98027",
       "geocoded": {
@@ -122,7 +122,7 @@
     },
     {
       "name": "Key Penninsula Composite",
-      "city": "Key Penninsula Composite  Key Penninsula",
+      "city": "Key Penninsula",
       "state": "WA",
       "zip": "98349",
       "geocoded": {
@@ -134,7 +134,7 @@
     },
     {
       "name": "Kittitas County Composite",
-      "city": "Kittitas County Composite  Ellensberg",
+      "city": "Ellensberg",
       "state": "WA",
       "zip": "98926",
       "geocoded": {
@@ -146,7 +146,7 @@
     },
     {
       "name": "Kootenai Composite",
-      "city": "Kootenai Composite  Coeur d\\'Alene",
+      "city": "Coeur d\\'Alene",
       "state": "ID",
       "zip": "83858",
       "geocoded": {
@@ -170,7 +170,7 @@
     },
     {
       "name": "Methow Valley Composite",
-      "city": "Methow Valley Composite  Twisp",
+      "city": "Twisp",
       "state": "WA",
       "zip": "98856",
       "geocoded": {
@@ -182,7 +182,7 @@
     },
     {
       "name": "Metro Seattle MTB",
-      "city": "Metro Seattle MTB  Seattle",
+      "city": "Seattle",
       "state": "WA",
       "zip": "98102",
       "geocoded": {
@@ -194,7 +194,7 @@
     },
     {
       "name": "Monroe Composite",
-      "city": "Monroe Composite  Monroe",
+      "city": "Monroe",
       "state": "WA",
       "zip": "98272",
       "geocoded": {
@@ -206,7 +206,7 @@
     },
     {
       "name": "Mt. Si MTB",
-      "city": "Mt. Si MTB  North Bend",
+      "city": "North Bend",
       "state": "WA",
       "zip": "98045",
       "geocoded": {
@@ -218,7 +218,7 @@
     },
     {
       "name": "Northshore Composite",
-      "city": "Northshore Composite  Bothell",
+      "city": "Bothell",
       "state": "WA",
       "zip": "98011",
       "geocoded": {
@@ -230,7 +230,7 @@
     },
     {
       "name": "Palouse Composite",
-      "city": "Palouse Composite  Moscow",
+      "city": "Moscow",
       "state": "ID",
       "zip": "83843",
       "geocoded": {
@@ -242,7 +242,7 @@
     },
     {
       "name": "Pilchuck Composite",
-      "city": "Pilchuck Composite  Pilchuck",
+      "city": "Pilchuck",
       "state": "WA",
       "zip": "98223",
       "geocoded": {
@@ -254,7 +254,7 @@
     },
     {
       "name": "Snohomish Composite",
-      "city": "Snohomish Composite  Snohomish",
+      "city": "Snohomish",
       "state": "WA",
       "zip": "98290",
       "geocoded": {
@@ -266,7 +266,7 @@
     },
     {
       "name": "Spokane Valley",
-      "city": "Spokane Valley  Spokane",
+      "city": "Spokane",
       "state": "WA",
       "zip": "99206",
       "geocoded": {
@@ -278,7 +278,7 @@
     },
     {
       "name": "Sultan-Sky MTB",
-      "city": "Sultan-Sky MTB  Sultan",
+      "city": "Sultan",
       "state": "WA",
       "zip": "98294",
       "geocoded": {
@@ -290,7 +290,7 @@
     },
     {
       "name": "Tahoma MTB",
-      "city": "Tahoma MTB  Tahoma",
+      "city": "Tahoma",
       "state": "WA",
       "zip": "98038",
       "geocoded": {
@@ -302,7 +302,7 @@
     },
     {
       "name": "Three Rivers Devo",
-      "city": "Three Rivers Devo  Kennewick",
+      "city": "Kennewick",
       "state": "WA",
       "zip": "99338",
       "geocoded": {
@@ -314,7 +314,7 @@
     },
     {
       "name": "Wenatchee Devo",
-      "city": "Wenatchee Devo  Wenatchee",
+      "city": "Wenatchee",
       "state": "WA",
       "zip": "98801",
       "geocoded": {
@@ -337,14 +337,11 @@
       }
     }
   ],
-  "races": [
+  "venues": [
     {
-      "year": "2023",
-      "season": "Spring",
-      "date": "4/16",
+      "location_key": "Gig Harbor, 360 Trails",
       "city": "Gig Harbor",
       "venue": "360 Trails",
-      "race_key": "Gig Harbor - 360 Trails - 2023-4-16",
       "geocoded": {
         "query": "360 Trails, Gig Harbor",
         "formatted_address": "360 Trail, Wauna, WA 98329, USA",
@@ -353,26 +350,20 @@
       }
     },
     {
-      "year": "2023",
-      "season": "Spring",
-      "date": "4/30",
+      "location_key": "Ephrata, Ephrata, WA",
       "city": "Ephrata",
-      "venue": "Riverside State Park",
-      "race_key": "Ephrata - Riverside State Park - 2023-4-30",
+      "venue": "Ephrata, WA",
       "geocoded": {
-        "query": "Riverside State Park, Ephrata",
+        "query": "Ephrata, WA, Ephrata",
         "formatted_address": "Ephrata, WA 98823, USA",
         "lat": 47.3176385,
         "lng": -119.5536491
       }
     },
     {
-      "year": "2023",
-      "season": "Spring",
-      "date": "5/14",
+      "location_key": "Spokane, Riverside State Park",
       "city": "Spokane",
       "venue": "Riverside State Park",
-      "race_key": "Spokane - Riverside State Park - 2023-5-14",
       "geocoded": {
         "query": "Riverside State Park, Spokane",
         "formatted_address": "Riverside State Park, 9711 W Charles Rd, Nine Mile Falls, WA 99026, USA",
@@ -381,12 +372,9 @@
       }
     },
     {
-      "year": "2023",
-      "season": "Spring",
-      "date": "6/04",
+      "location_key": "Winthrop, Liberty Bell High School",
       "city": "Winthrop",
       "venue": "Liberty Bell High School",
-      "race_key": "Winthrop - Liberty Bell High School - 2023-6-04",
       "geocoded": {
         "query": "Liberty Bell High School, Winthrop",
         "formatted_address": "18 Twin Lakes Rd, Winthrop, WA 98862, USA",
@@ -395,12 +383,9 @@
       }
     },
     {
-      "year": "2023",
-      "season": "Spring",
-      "date": "6/11",
+      "location_key": "Bellingham, Galbraith",
       "city": "Bellingham",
       "venue": "Galbraith",
-      "race_key": "Bellingham - Galbraith - 2023-6-11",
       "geocoded": {
         "query": "Galbraith, Bellingham",
         "formatted_address": "3300 Squalicum Pkwy #200, Bellingham, WA 98225, USA",
@@ -409,12 +394,9 @@
       }
     },
     {
-      "year": "2023",
-      "season": "Fall",
-      "date": "9/17",
+      "location_key": "Port Gamble, Port Gamble (Race + Camping)",
       "city": "Port Gamble",
       "venue": "Port Gamble (Race + Camping)",
-      "race_key": "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17",
       "geocoded": {
         "query": "Port Gamble (Race + Camping), Port Gamble",
         "formatted_address": "Port Gamble, WA 98370, USA",
@@ -423,12 +405,9 @@
       }
     },
     {
-      "year": "2023",
-      "season": "Fall",
-      "date": "10/08",
+      "location_key": "Wenatchee, Squilchuck State Park",
       "city": "Wenatchee",
       "venue": "Squilchuck State Park",
-      "race_key": "Wenatchee - Squilchuck State Park - 2023-10-08",
       "geocoded": {
         "query": "Squilchuck State Park, Wenatchee",
         "formatted_address": "Squilchuck State Pk, 2805 Mission Ridge Rd, Wenatchee, WA 98801, USA",
@@ -437,40 +416,9 @@
       }
     },
     {
-      "year": "2024",
-      "season": "Spring",
-      "date": "4/14",
-      "city": "Spokane",
-      "venue": "Riverside State Park",
-      "race_key": "Spokane - Riverside State Park - 2024-4-14",
-      "geocoded": {
-        "query": "Riverside State Park, Spokane",
-        "formatted_address": "Riverside State Park, 9711 W Charles Rd, Nine Mile Falls, WA 99026, USA",
-        "lat": 47.7517885,
-        "lng": -117.5436475
-      }
-    },
-    {
-      "year": "2024",
-      "season": "Spring",
-      "date": "4/28",
-      "city": "Winthrop",
-      "venue": "Liberty Bell High School",
-      "race_key": "Winthrop - Liberty Bell High School - 2024-4-28",
-      "geocoded": {
-        "query": "Liberty Bell High School, Winthrop",
-        "formatted_address": "18 Twin Lakes Rd, Winthrop, WA 98862, USA",
-        "lat": 48.44225309999999,
-        "lng": -120.169876
-      }
-    },
-    {
-      "year": "2024",
-      "season": "Spring",
-      "date": "5/05",
+      "location_key": "Cle Elum, Flying Horseshoe Ranch (Relay)",
       "city": "Cle Elum",
       "venue": "Flying Horseshoe Ranch (Relay)",
-      "race_key": "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05",
       "geocoded": {
         "query": "Flying Horseshoe Ranch (Relay), Cle Elum",
         "formatted_address": "3190 Red Bridge Rd, Cle Elum, WA 98922, USA",
@@ -479,40 +427,9 @@
       }
     },
     {
-      "year": "2024",
-      "season": "Spring",
-      "date": "5/19",
-      "city": "Gig Harbor",
-      "venue": "360 Trails",
-      "race_key": "Gig Harbor - 360 Trails - 2024-5-19",
-      "geocoded": {
-        "query": "360 Trails, Gig Harbor",
-        "formatted_address": "360 Trail, Wauna, WA 98329, USA",
-        "lat": 47.3941052,
-        "lng": -122.6822641
-      }
-    },
-    {
-      "year": "2024",
-      "season": "Spring",
-      "date": "6/02",
-      "city": "Wenatchee",
-      "venue": "Squilchuck State Park",
-      "race_key": "Wenatchee - Squilchuck State Park - 2024-6-02",
-      "geocoded": {
-        "query": "Squilchuck State Park, Wenatchee",
-        "formatted_address": "Squilchuck State Pk, 2805 Mission Ridge Rd, Wenatchee, WA 98801, USA",
-        "lat": 47.30906720000001,
-        "lng": -120.3728069
-      }
-    },
-    {
-      "year": "2024",
-      "season": "Fall",
-      "date": "9/29",
+      "location_key": "Cle Elum, Roslyn High School",
       "city": "Cle Elum",
       "venue": "Roslyn High School",
-      "race_key": "Cle Elum - Roslyn High School - 2024-9-29",
       "geocoded": {
         "query": "Roslyn High School, Cle Elum",
         "formatted_address": "Roslyn Pl, Cle Elum, WA 98922, USA",
@@ -521,26 +438,9 @@
       }
     },
     {
-      "year": "2024",
-      "season": "Fall",
-      "date": "10/13",
-      "city": "Gig Harbor",
-      "venue": "360 Trails",
-      "race_key": "Gig Harbor - 360 Trails - 2024-10-13",
-      "geocoded": {
-        "query": "360 Trails, Gig Harbor",
-        "formatted_address": "360 Trail, Wauna, WA 98329, USA",
-        "lat": 47.3941052,
-        "lng": -122.6822641
-      }
-    },
-    {
-      "year": "2025",
-      "season": "Spring",
-      "date": "4/13",
+      "location_key": "Lakewood, Fort Steilacoom",
       "city": "Lakewood",
       "venue": "Fort Steilacoom",
-      "race_key": "Lakewood - Fort Steilacoom - 2025-4-13",
       "geocoded": {
         "query": "Fort Steilacoom, Lakewood",
         "formatted_address": "9601 Steilacoom Blvd SW, Lakewood, WA 98498, USA",
@@ -549,26 +449,9 @@
       }
     },
     {
-      "year": "2025",
-      "season": "Spring",
-      "date": "4/27",
-      "city": "Cle Elum",
-      "venue": "Roslyn High School",
-      "race_key": "Cle Elum - Roslyn High School - 2025-4-27",
-      "geocoded": {
-        "query": "Roslyn High School, Cle Elum",
-        "formatted_address": "Roslyn Pl, Cle Elum, WA 98922, USA",
-        "lat": 47.1984261,
-        "lng": -120.951533
-      }
-    },
-    {
-      "year": "2025",
-      "season": "Spring",
-      "date": "5/4",
+      "location_key": "Leavenworth, Ski Hill",
       "city": "Leavenworth",
       "venue": "Ski Hill",
-      "race_key": "Leavenworth - Ski Hill - 2025-5-4",
       "geocoded": {
         "query": "Ski Hill, Leavenworth",
         "formatted_address": "Ski Hill Dr, Leavenworth, WA 98826, USA",
@@ -577,54 +460,9 @@
       }
     },
     {
-      "year": "2025",
-      "season": "Spring",
-      "date": "5/18",
-      "city": "Winthrop",
-      "venue": "Liberty Bell High School",
-      "race_key": "Winthrop - Liberty Bell High School - 2025-5-18",
-      "geocoded": {
-        "query": "Liberty Bell High School, Winthrop",
-        "formatted_address": "18 Twin Lakes Rd, Winthrop, WA 98862, USA",
-        "lat": 48.44225309999999,
-        "lng": -120.169876
-      }
-    },
-    {
-      "year": "2025",
-      "season": "Spring",
-      "date": "6/1",
-      "city": "Gig Harbor",
-      "venue": "360 Trails",
-      "race_key": "Gig Harbor - 360 Trails - 2025-6-1",
-      "geocoded": {
-        "query": "360 Trails, Gig Harbor",
-        "formatted_address": "360 Trail, Wauna, WA 98329, USA",
-        "lat": 47.3941052,
-        "lng": -122.6822641
-      }
-    },
-    {
-      "year": "2025",
-      "season": "Fall",
-      "date": "9/28",
-      "city": "Lakewood",
-      "venue": "Fort Steilacoom",
-      "race_key": "Lakewood - Fort Steilacoom - 2025-9-28",
-      "geocoded": {
-        "query": "Fort Steilacoom, Lakewood",
-        "formatted_address": "9601 Steilacoom Blvd SW, Lakewood, WA 98498, USA",
-        "lat": 47.1793059,
-        "lng": -122.5633311
-      }
-    },
-    {
-      "year": "2025",
-      "season": "Fall",
-      "date": "10/12",
+      "location_key": "Twisp, Loup Loup",
       "city": "Twisp",
       "venue": "Loup Loup",
-      "race_key": "Twisp - Loup Loup - 2025-10-12",
       "geocoded": {
         "query": "Loup Loup, Twisp",
         "formatted_address": "Loup Loup Ski Bowl, 97 FS, 4200 100 Road, Okanogan, WA 98840, USA",
@@ -633,739 +471,2217 @@
       }
     }
   ],
+  "events": [
+    {
+      "event_id": "2023-04-16_Gig Harbor_360_Trails",
+      "year": "2023",
+      "month": 4,
+      "day": 16,
+      "season": "Spring",
+      "date": "4/16",
+      "location_key": "Gig Harbor, 360 Trails"
+    },
+    {
+      "event_id": "2023-04-30_Ephrata_Ephrata,_WA",
+      "year": "2023",
+      "month": 4,
+      "day": 30,
+      "season": "Spring",
+      "date": "4/30",
+      "location_key": "Ephrata, Ephrata, WA"
+    },
+    {
+      "event_id": "2023-05-14_Spokane_Riverside_State_Park",
+      "year": "2023",
+      "month": 5,
+      "day": 14,
+      "season": "Spring",
+      "date": "5/14",
+      "location_key": "Spokane, Riverside State Park"
+    },
+    {
+      "event_id": "2023-06-04_Winthrop_Liberty_Bell_High_School",
+      "year": "2023",
+      "month": 6,
+      "day": 4,
+      "season": "Spring",
+      "date": "6/04",
+      "location_key": "Winthrop, Liberty Bell High School"
+    },
+    {
+      "event_id": "2023-06-11_Bellingham_Galbraith",
+      "year": "2023",
+      "month": 6,
+      "day": 11,
+      "season": "Spring",
+      "date": "6/11",
+      "location_key": "Bellingham, Galbraith"
+    },
+    {
+      "event_id": "2023-09-17_Port Gamble_Port_Gamble_(Race_+_Camping)",
+      "year": "2023",
+      "month": 9,
+      "day": 17,
+      "season": "Fall",
+      "date": "9/17",
+      "location_key": "Port Gamble, Port Gamble (Race + Camping)"
+    },
+    {
+      "event_id": "2023-10-08_Wenatchee_Squilchuck_State_Park",
+      "year": "2023",
+      "month": 10,
+      "day": 8,
+      "season": "Fall",
+      "date": "10/08",
+      "location_key": "Wenatchee, Squilchuck State Park"
+    },
+    {
+      "event_id": "2024-04-14_Spokane_Riverside_State_Park",
+      "year": "2024",
+      "month": 4,
+      "day": 14,
+      "season": "Spring",
+      "date": "4/14",
+      "location_key": "Spokane, Riverside State Park"
+    },
+    {
+      "event_id": "2024-04-28_Winthrop_Liberty_Bell_High_School",
+      "year": "2024",
+      "month": 4,
+      "day": 28,
+      "season": "Spring",
+      "date": "4/28",
+      "location_key": "Winthrop, Liberty Bell High School"
+    },
+    {
+      "event_id": "2024-05-05_Cle Elum_Flying_Horseshoe_Ranch_(Relay)",
+      "year": "2024",
+      "month": 5,
+      "day": 5,
+      "season": "Spring",
+      "date": "5/05",
+      "location_key": "Cle Elum, Flying Horseshoe Ranch (Relay)"
+    },
+    {
+      "event_id": "2024-05-19_Gig Harbor_360_Trails",
+      "year": "2024",
+      "month": 5,
+      "day": 19,
+      "season": "Spring",
+      "date": "5/19",
+      "location_key": "Gig Harbor, 360 Trails"
+    },
+    {
+      "event_id": "2024-06-02_Wenatchee_Squilchuck_State_Park",
+      "year": "2024",
+      "month": 6,
+      "day": 2,
+      "season": "Spring",
+      "date": "6/02",
+      "location_key": "Wenatchee, Squilchuck State Park"
+    },
+    {
+      "event_id": "2024-09-29_Cle Elum_Roslyn_High_School",
+      "year": "2024",
+      "month": 9,
+      "day": 29,
+      "season": "Fall",
+      "date": "9/29",
+      "location_key": "Cle Elum, Roslyn High School"
+    },
+    {
+      "event_id": "2024-10-13_Gig Harbor_360_Trails",
+      "year": "2024",
+      "month": 10,
+      "day": 13,
+      "season": "Fall",
+      "date": "10/13",
+      "location_key": "Gig Harbor, 360 Trails"
+    },
+    {
+      "event_id": "2025-04-13_Lakewood_Fort_Steilacoom",
+      "year": "2025",
+      "month": 4,
+      "day": 13,
+      "season": "Spring",
+      "date": "4/13",
+      "location_key": "Lakewood, Fort Steilacoom"
+    },
+    {
+      "event_id": "2025-04-27_Cle Elum_Roslyn_High_School",
+      "year": "2025",
+      "month": 4,
+      "day": 27,
+      "season": "Spring",
+      "date": "4/27",
+      "location_key": "Cle Elum, Roslyn High School"
+    },
+    {
+      "event_id": "2025-05-04_Leavenworth_Ski_Hill",
+      "year": "2025",
+      "month": 5,
+      "day": 4,
+      "season": "Spring",
+      "date": "5/4",
+      "location_key": "Leavenworth, Ski Hill"
+    },
+    {
+      "event_id": "2025-05-18_Winthrop_Liberty_Bell_High_School",
+      "year": "2025",
+      "month": 5,
+      "day": 18,
+      "season": "Spring",
+      "date": "5/18",
+      "location_key": "Winthrop, Liberty Bell High School"
+    },
+    {
+      "event_id": "2025-06-01_Gig Harbor_360_Trails",
+      "year": "2025",
+      "month": 6,
+      "day": 1,
+      "season": "Spring",
+      "date": "6/1",
+      "location_key": "Gig Harbor, 360 Trails"
+    },
+    {
+      "event_id": "2025-09-28_Lakewood_Fort_Steilacoom",
+      "year": "2025",
+      "month": 9,
+      "day": 28,
+      "season": "Fall",
+      "date": "9/28",
+      "location_key": "Lakewood, Fort Steilacoom"
+    },
+    {
+      "event_id": "2025-10-12_Twisp_Loup_Loup",
+      "year": "2025",
+      "month": 10,
+      "day": 12,
+      "season": "Fall",
+      "date": "10/12",
+      "location_key": "Twisp, Loup Loup"
+    }
+  ],
   "distances": {
     "Anacortes Composite": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 267.2,
-        "Ephrata - Riverside State Park - 2023-4-30": 489.0,
-        "Spokane - Riverside State Park - 2023-5-14": 714.2,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 304.8,
-        "Bellingham - Galbraith - 2023-6-11": 83.5,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 172.7,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 366.2,
-        "Spokane - Riverside State Park - 2024-4-14": 714.2,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 304.8,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 326.6,
-        "Gig Harbor - 360 Trails - 2024-5-19": 267.2,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 366.2,
-        "Cle Elum - Roslyn High School - 2024-9-29": 312.4,
-        "Gig Harbor - 360 Trails - 2024-10-13": 267.2,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 247.7,
-        "Cle Elum - Roslyn High School - 2025-4-27": 312.4,
-        "Leavenworth - Ski Hill - 2025-5-4": 302.8,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 304.8,
-        "Gig Harbor - 360 Trails - 2025-6-1": 267.2,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 247.7,
-        "Twisp - Loup Loup - 2025-10-12": 344.3
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 267.2,
+          "hours": 4.73
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 489.0,
+          "hours": 7.81
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 714.2,
+          "hours": 11.16
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 304.8,
+          "hours": 6.47
+        },
+        "Bellingham, Galbraith": {
+          "miles": 83.5,
+          "hours": 1.7
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 172.7,
+          "hours": 4.99
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 366.2,
+          "hours": 7.18
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 326.6,
+          "hours": 5.38
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 312.4,
+          "hours": 5.15
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 247.7,
+          "hours": 4.59
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 302.8,
+          "hours": 5.62
+        },
+        "Twisp, Loup Loup": {
+          "miles": 344.3,
+          "hours": 7.32
+        }
       },
-      "total_miles": 6983.3
+      "total_miles_events": 6983.1,
+      "total_hours_events": 127.31,
+      "season_totals": {
+        "Spring": {
+          "miles": 5272.6,
+          "hours": 93.35
+        },
+        "Fall": {
+          "miles": 1710.5,
+          "hours": 33.96
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Bainbridge Island": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 89.4,
-        "Ephrata - Riverside State Park - 2023-4-30": 484.2,
-        "Spokane - Riverside State Park - 2023-5-14": 709.5,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 411.8,
-        "Bellingham - Galbraith - 2023-6-11": 208.5,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 35.5,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 336.7,
-        "Spokane - Riverside State Park - 2024-4-14": 709.5,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 411.8,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 321.9,
-        "Gig Harbor - 360 Trails - 2024-5-19": 89.4,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 336.7,
-        "Cle Elum - Roslyn High School - 2024-9-29": 307.7,
-        "Gig Harbor - 360 Trails - 2024-10-13": 89.4,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 126.0,
-        "Cle Elum - Roslyn High School - 2025-4-27": 307.7,
-        "Leavenworth - Ski Hill - 2025-5-4": 273.2,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 411.8,
-        "Gig Harbor - 360 Trails - 2025-6-1": 89.4,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 126.0,
-        "Twisp - Loup Loup - 2025-10-12": 451.4
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 89.4,
+          "hours": 2.04
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 484.2,
+          "hours": 8.01
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 709.5,
+          "hours": 11.35
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 411.8,
+          "hours": 10.12
+        },
+        "Bellingham, Galbraith": {
+          "miles": 208.5,
+          "hours": 5.59
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 35.5,
+          "hours": 1.04
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 336.7,
+          "hours": 8.79
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 321.9,
+          "hours": 5.57
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 307.7,
+          "hours": 5.35
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 126.0,
+          "hours": 2.72
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 273.2,
+          "hours": 7.23
+        },
+        "Twisp, Loup Loup": {
+          "miles": 451.4,
+          "hours": 10.98
+        }
       },
-      "total_miles": 6327.6
+      "total_miles_events": 6327.5,
+      "total_hours_events": 133.36,
+      "season_totals": {
+        "Spring": {
+          "miles": 4980.8,
+          "hours": 102.44
+        },
+        "Fall": {
+          "miles": 1346.7,
+          "hours": 30.92
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Bellingham XCO": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 285.9,
-        "Ephrata - Riverside State Park - 2023-4-30": 507.6,
-        "Spokane - Riverside State Park - 2023-5-14": 732.8,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 315.5,
-        "Bellingham - Galbraith - 2023-6-11": 3.6,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 191.3,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 384.9,
-        "Spokane - Riverside State Park - 2024-4-14": 732.8,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 315.5,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 345.3,
-        "Gig Harbor - 360 Trails - 2024-5-19": 285.9,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 384.9,
-        "Cle Elum - Roslyn High School - 2024-9-29": 331.1,
-        "Gig Harbor - 360 Trails - 2024-10-13": 285.9,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 266.4,
-        "Cle Elum - Roslyn High School - 2025-4-27": 331.1,
-        "Leavenworth - Ski Hill - 2025-5-4": 321.4,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 315.5,
-        "Gig Harbor - 360 Trails - 2025-6-1": 285.9,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 266.4,
-        "Twisp - Loup Loup - 2025-10-12": 355.1
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 285.9,
+          "hours": 4.85
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 507.6,
+          "hours": 7.93
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 732.8,
+          "hours": 11.28
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 315.5,
+          "hours": 6.37
+        },
+        "Bellingham, Galbraith": {
+          "miles": 3.6,
+          "hours": 0.22
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 191.3,
+          "hours": 5.11
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 384.9,
+          "hours": 7.3
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 345.3,
+          "hours": 5.49
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 331.1,
+          "hours": 5.27
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 266.4,
+          "hours": 4.71
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 321.4,
+          "hours": 5.74
+        },
+        "Twisp, Loup Loup": {
+          "miles": 355.1,
+          "hours": 7.22
+        }
       },
-      "total_miles": 7244.6
+      "total_miles_events": 7244.8,
+      "total_hours_events": 127.34,
+      "season_totals": {
+        "Spring": {
+          "miles": 5430.1,
+          "hours": 92.88
+        },
+        "Fall": {
+          "miles": 1814.7,
+          "hours": 34.46
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Bonney Lake": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 69.3,
-        "Ephrata - Riverside State Park - 2023-4-30": 367.8,
-        "Spokane - Riverside State Park - 2023-5-14": 593.1,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 454.5,
-        "Bellingham - Galbraith - 2023-6-11": 251.2,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 140.0,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 421.3,
-        "Spokane - Riverside State Park - 2024-4-14": 593.1,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 454.5,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 205.5,
-        "Gig Harbor - 360 Trails - 2024-5-19": 69.3,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 421.3,
-        "Cle Elum - Roslyn High School - 2024-9-29": 191.3,
-        "Gig Harbor - 360 Trails - 2024-10-13": 69.3,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 47.7,
-        "Cle Elum - Roslyn High School - 2025-4-27": 191.3,
-        "Leavenworth - Ski Hill - 2025-5-4": 289.6,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 454.5,
-        "Gig Harbor - 360 Trails - 2025-6-1": 69.3,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 47.7,
-        "Twisp - Loup Loup - 2025-10-12": 494.0
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 69.3,
+          "hours": 1.53
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 367.8,
+          "hours": 5.85
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 593.1,
+          "hours": 9.19
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 454.5,
+          "hours": 8.81
+        },
+        "Bellingham, Galbraith": {
+          "miles": 251.2,
+          "hours": 4.28
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 140.0,
+          "hours": 2.63
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 421.3,
+          "hours": 6.98
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 205.5,
+          "hours": 3.41
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 191.3,
+          "hours": 3.19
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 47.7,
+          "hours": 1.18
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 289.6,
+          "hours": 5.48
+        },
+        "Twisp, Loup Loup": {
+          "miles": 494.0,
+          "hours": 9.66
+        }
       },
-      "total_miles": 5895.4
+      "total_miles_events": 5895.6,
+      "total_hours_events": 104.94,
+      "season_totals": {
+        "Spring": {
+          "miles": 4532.0,
+          "hours": 79.77
+        },
+        "Fall": {
+          "miles": 1363.6,
+          "hours": 25.17
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Capitol City MTB": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 97.5,
-        "Ephrata - Riverside State Park - 2023-4-30": 428.4,
-        "Spokane - Riverside State Park - 2023-5-14": 653.6,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 511.0,
-        "Bellingham - Galbraith - 2023-6-11": 307.7,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 168.2,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 481.9,
-        "Spokane - Riverside State Park - 2024-4-14": 653.6,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 511.0,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 266.1,
-        "Gig Harbor - 360 Trails - 2024-5-19": 97.5,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 481.9,
-        "Cle Elum - Roslyn High School - 2024-9-29": 251.9,
-        "Gig Harbor - 360 Trails - 2024-10-13": 97.5,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 50.6,
-        "Cle Elum - Roslyn High School - 2025-4-27": 251.9,
-        "Leavenworth - Ski Hill - 2025-5-4": 349.9,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 511.0,
-        "Gig Harbor - 360 Trails - 2025-6-1": 97.5,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 50.6,
-        "Twisp - Loup Loup - 2025-10-12": 550.6
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 97.5,
+          "hours": 1.92
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 428.4,
+          "hours": 6.93
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 653.6,
+          "hours": 10.28
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 511.0,
+          "hours": 9.73
+        },
+        "Bellingham, Galbraith": {
+          "miles": 307.7,
+          "hours": 5.21
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 168.2,
+          "hours": 3.03
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 481.9,
+          "hours": 8.06
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 266.1,
+          "hours": 4.5
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 251.9,
+          "hours": 4.28
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 50.6,
+          "hours": 1.3
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 349.9,
+          "hours": 6.49
+        },
+        "Twisp, Loup Loup": {
+          "miles": 550.6,
+          "hours": 10.59
+        }
       },
-      "total_miles": 6870.2
+      "total_miles_events": 6869.9,
+      "total_hours_events": 121.46,
+      "season_totals": {
+        "Spring": {
+          "miles": 5269.2,
+          "hours": 92.28
+        },
+        "Fall": {
+          "miles": 1600.7,
+          "hours": 29.18
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Cedarcrest MTB": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 177.5,
-        "Ephrata - Riverside State Park - 2023-4-30": 399.2,
-        "Spokane - Riverside State Park - 2023-5-14": 624.5,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 314.3,
-        "Bellingham - Galbraith - 2023-6-11": 116.8,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 83.0,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 270.6,
-        "Spokane - Riverside State Park - 2024-4-14": 624.5,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 314.3,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 236.9,
-        "Gig Harbor - 360 Trails - 2024-5-19": 177.5,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 270.6,
-        "Cle Elum - Roslyn High School - 2024-9-29": 222.7,
-        "Gig Harbor - 360 Trails - 2024-10-13": 177.5,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 158.0,
-        "Cle Elum - Roslyn High School - 2025-4-27": 222.7,
-        "Leavenworth - Ski Hill - 2025-5-4": 207.1,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 314.3,
-        "Gig Harbor - 360 Trails - 2025-6-1": 177.5,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 158.0,
-        "Twisp - Loup Loup - 2025-10-12": 353.8
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 177.5,
+          "hours": 3.25
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 399.2,
+          "hours": 6.33
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 624.5,
+          "hours": 9.67
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 314.3,
+          "hours": 6.45
+        },
+        "Bellingham, Galbraith": {
+          "miles": 116.8,
+          "hours": 2.0
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 83.0,
+          "hours": 3.5
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 270.6,
+          "hours": 5.66
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 236.9,
+          "hours": 3.89
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 222.7,
+          "hours": 3.67
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 158.0,
+          "hours": 3.11
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 207.1,
+          "hours": 4.1
+        },
+        "Twisp, Loup Loup": {
+          "miles": 353.8,
+          "hours": 7.3
+        }
       },
-      "total_miles": 5601.2
+      "total_miles_events": 5601.3,
+      "total_hours_events": 103.69,
+      "season_totals": {
+        "Spring": {
+          "miles": 4335.7,
+          "hours": 77.2
+        },
+        "Fall": {
+          "miles": 1265.6,
+          "hours": 26.49
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Edmonds Composite": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 143.8,
-        "Ephrata - Riverside State Park - 2023-4-30": 373.5,
-        "Spokane - Riverside State Park - 2023-5-14": 598.8,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 362.4,
-        "Bellingham - Galbraith - 2023-6-11": 159.1,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 29.6,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 287.2,
-        "Spokane - Riverside State Park - 2024-4-14": 598.8,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 362.4,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 211.2,
-        "Gig Harbor - 360 Trails - 2024-5-19": 143.8,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 287.2,
-        "Cle Elum - Roslyn High School - 2024-9-29": 197.0,
-        "Gig Harbor - 360 Trails - 2024-10-13": 143.8,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 124.3,
-        "Cle Elum - Roslyn High School - 2025-4-27": 197.0,
-        "Leavenworth - Ski Hill - 2025-5-4": 223.8,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 362.4,
-        "Gig Harbor - 360 Trails - 2025-6-1": 143.8,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 124.3,
-        "Twisp - Loup Loup - 2025-10-12": 401.9
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 143.8,
+          "hours": 2.74
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 373.5,
+          "hours": 5.98
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 598.8,
+          "hours": 9.33
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 362.4,
+          "hours": 7.32
+        },
+        "Bellingham, Galbraith": {
+          "miles": 159.1,
+          "hours": 2.79
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 29.6,
+          "hours": 2.41
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 287.2,
+          "hours": 5.99
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 211.2,
+          "hours": 3.55
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 197.0,
+          "hours": 3.33
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 124.3,
+          "hours": 2.6
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 223.8,
+          "hours": 4.43
+        },
+        "Twisp, Loup Loup": {
+          "miles": 401.9,
+          "hours": 8.17
+        }
       },
-      "total_miles": 5476.2
+      "total_miles_events": 5476.1,
+      "total_hours_events": 102.75,
+      "season_totals": {
+        "Spring": {
+          "miles": 4292.3,
+          "hours": 77.51
+        },
+        "Fall": {
+          "miles": 1183.8,
+          "hours": 25.24
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Icicle Bicycle": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 275.8,
-        "Ephrata - Riverside State Park - 2023-4-30": 194.9,
-        "Spokane - Riverside State Park - 2023-5-14": 409.9,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 275.4,
-        "Bellingham - Galbraith - 2023-6-11": 272.2,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 207.9,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 113.4,
-        "Spokane - Riverside State Park - 2024-4-14": 409.9,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 275.4,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 335.2,
-        "Gig Harbor - 360 Trails - 2024-5-19": 275.8,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 113.4,
-        "Cle Elum - Roslyn High School - 2024-9-29": 321.0,
-        "Gig Harbor - 360 Trails - 2024-10-13": 275.8,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 256.3,
-        "Cle Elum - Roslyn High School - 2025-4-27": 321.0,
-        "Leavenworth - Ski Hill - 2025-5-4": 50.0,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 275.4,
-        "Gig Harbor - 360 Trails - 2025-6-1": 275.8,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 256.3,
-        "Twisp - Loup Loup - 2025-10-12": 279.5
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 275.8,
+          "hours": 5.1
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 194.9,
+          "hours": 3.8
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 409.9,
+          "hours": 7.38
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 275.4,
+          "hours": 5.1
+        },
+        "Bellingham, Galbraith": {
+          "miles": 272.2,
+          "hours": 4.82
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 207.9,
+          "hours": 5.83
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 113.4,
+          "hours": 2.48
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 335.2,
+          "hours": 5.75
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 321.0,
+          "hours": 5.52
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 256.3,
+          "hours": 4.96
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 50.0,
+          "hours": 0.92
+        },
+        "Twisp, Loup Loup": {
+          "miles": 279.5,
+          "hours": 5.21
+        }
       },
-      "total_miles": 5470.5
+      "total_miles_events": 5470.3,
+      "total_hours_events": 102.71,
+      "season_totals": {
+        "Spring": {
+          "miles": 4016.4,
+          "hours": 73.61
+        },
+        "Fall": {
+          "miles": 1453.9,
+          "hours": 29.1
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Inland NW (Spokane)": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 624.6,
-        "Ephrata - Riverside State Park - 2023-4-30": 250.4,
-        "Spokane - Riverside State Park - 2023-5-14": 32.8,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 365.6,
-        "Bellingham - Galbraith - 2023-6-11": 729.3,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 695.3,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 357.3,
-        "Spokane - Riverside State Park - 2024-4-14": 32.8,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 365.6,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 402.5,
-        "Gig Harbor - 360 Trails - 2024-5-19": 624.6,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 357.3,
-        "Cle Elum - Roslyn High School - 2024-9-29": 398.5,
-        "Gig Harbor - 360 Trails - 2024-10-13": 624.6,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 605.1,
-        "Cle Elum - Roslyn High School - 2025-4-27": 398.5,
-        "Leavenworth - Ski Hill - 2025-5-4": 390.6,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 365.6,
-        "Gig Harbor - 360 Trails - 2025-6-1": 624.6,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 605.1,
-        "Twisp - Loup Loup - 2025-10-12": 330.2
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 624.6,
+          "hours": 9.58
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 250.4,
+          "hours": 3.95
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 32.8,
+          "hours": 0.77
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 365.6,
+          "hours": 6.74
+        },
+        "Bellingham, Galbraith": {
+          "miles": 729.3,
+          "hours": 10.98
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 695.3,
+          "hours": 10.68
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 357.3,
+          "hours": 5.72
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 402.5,
+          "hours": 5.98
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 398.5,
+          "hours": 5.93
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 605.1,
+          "hours": 9.44
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 390.6,
+          "hours": 6.42
+        },
+        "Twisp, Loup Loup": {
+          "miles": 330.2,
+          "hours": 6.05
+        }
       },
-      "total_miles": 9180.8
+      "total_miles_events": 9180.9,
+      "total_hours_events": 146.32,
+      "season_totals": {
+        "Spring": {
+          "miles": 6169.9,
+          "hours": 98.92
+        },
+        "Fall": {
+          "miles": 3011.0,
+          "hours": 47.4
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Issaquah Composite": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 108.4,
-        "Ephrata - Riverside State Park - 2023-4-30": 307.4,
-        "Spokane - Riverside State Park - 2023-5-14": 532.6,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 433.8,
-        "Bellingham - Galbraith - 2023-6-11": 230.5,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 179.1,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 360.9,
-        "Spokane - Riverside State Park - 2024-4-14": 532.6,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 433.8,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 145.1,
-        "Gig Harbor - 360 Trails - 2024-5-19": 108.4,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 360.9,
-        "Cle Elum - Roslyn High School - 2024-9-29": 130.9,
-        "Gig Harbor - 360 Trails - 2024-10-13": 108.4,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 88.9,
-        "Cle Elum - Roslyn High School - 2025-4-27": 130.9,
-        "Leavenworth - Ski Hill - 2025-5-4": 247.7,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 433.8,
-        "Gig Harbor - 360 Trails - 2025-6-1": 108.4,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 88.9,
-        "Twisp - Loup Loup - 2025-10-12": 514.8
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 108.4,
+          "hours": 2.41
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 307.4,
+          "hours": 5.28
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 532.6,
+          "hours": 8.63
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 433.8,
+          "hours": 8.83
+        },
+        "Bellingham, Galbraith": {
+          "miles": 230.5,
+          "hours": 4.3
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 179.1,
+          "hours": 3.52
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 360.9,
+          "hours": 6.41
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 145.1,
+          "hours": 2.85
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 130.9,
+          "hours": 2.62
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 88.9,
+          "hours": 2.27
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 247.7,
+          "hours": 5.5
+        },
+        "Twisp, Loup Loup": {
+          "miles": 514.8,
+          "hours": 9.09
+        }
       },
-      "total_miles": 5586.4
+      "total_miles_events": 5586.2,
+      "total_hours_events": 106.53,
+      "season_totals": {
+        "Spring": {
+          "miles": 4203.2,
+          "hours": 80.21
+        },
+        "Fall": {
+          "miles": 1383.0,
+          "hours": 26.32
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Key Penninsula Composite": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 21.5,
-        "Ephrata - Riverside State Park - 2023-4-30": 424.3,
-        "Spokane - Riverside State Park - 2023-5-14": 649.5,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 506.9,
-        "Bellingham - Galbraith - 2023-6-11": 303.6,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 95.4,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 477.7,
-        "Spokane - Riverside State Park - 2024-4-14": 649.5,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 506.9,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 261.9,
-        "Gig Harbor - 360 Trails - 2024-5-19": 21.5,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 477.7,
-        "Cle Elum - Roslyn High School - 2024-9-29": 247.7,
-        "Gig Harbor - 360 Trails - 2024-10-13": 21.5,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 66.0,
-        "Cle Elum - Roslyn High School - 2025-4-27": 247.7,
-        "Leavenworth - Ski Hill - 2025-5-4": 345.8,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 506.9,
-        "Gig Harbor - 360 Trails - 2025-6-1": 21.5,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 66.0,
-        "Twisp - Loup Loup - 2025-10-12": 546.4
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 21.5,
+          "hours": 0.54
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 424.3,
+          "hours": 6.89
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 649.5,
+          "hours": 10.24
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 506.9,
+          "hours": 9.69
+        },
+        "Bellingham, Galbraith": {
+          "miles": 303.6,
+          "hours": 5.16
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 95.4,
+          "hours": 2.03
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 477.7,
+          "hours": 8.02
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 261.9,
+          "hours": 4.46
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 247.7,
+          "hours": 4.23
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 66.0,
+          "hours": 1.61
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 345.8,
+          "hours": 6.45
+        },
+        "Twisp, Loup Loup": {
+          "miles": 546.4,
+          "hours": 10.54
+        }
       },
-      "total_miles": 6465.7
+      "total_miles_events": 6465.9,
+      "total_hours_events": 114.96,
+      "season_totals": {
+        "Spring": {
+          "miles": 5011.2,
+          "hours": 87.99
+        },
+        "Fall": {
+          "miles": 1454.7,
+          "hours": 26.97
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Kittitas County Composite": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 276.7,
-        "Ephrata - Riverside State Park - 2023-4-30": 128.6,
-        "Spokane - Riverside State Park - 2023-5-14": 353.9,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 355.7,
-        "Bellingham - Galbraith - 2023-6-11": 381.4,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 347.4,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 182.1,
-        "Spokane - Riverside State Park - 2024-4-14": 353.9,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 355.7,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 45.0,
-        "Gig Harbor - 360 Trails - 2024-5-19": 276.7,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 182.1,
-        "Cle Elum - Roslyn High School - 2024-9-29": 50.6,
-        "Gig Harbor - 360 Trails - 2024-10-13": 276.7,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 257.2,
-        "Cle Elum - Roslyn High School - 2025-4-27": 50.6,
-        "Leavenworth - Ski Hill - 2025-5-4": 215.3,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 355.7,
-        "Gig Harbor - 360 Trails - 2025-6-1": 276.7,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 257.2,
-        "Twisp - Loup Loup - 2025-10-12": 336.1
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 276.7,
+          "hours": 4.6
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 128.6,
+          "hours": 2.2
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 353.9,
+          "hours": 5.55
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 355.7,
+          "hours": 6.41
+        },
+        "Bellingham, Galbraith": {
+          "miles": 381.4,
+          "hours": 6.0
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 347.4,
+          "hours": 5.71
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 182.1,
+          "hours": 3.33
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 45.0,
+          "hours": 0.98
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 50.6,
+          "hours": 0.95
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 257.2,
+          "hours": 4.46
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 215.3,
+          "hours": 4.03
+        },
+        "Twisp, Loup Loup": {
+          "miles": 336.1,
+          "hours": 6.01
+        }
       },
-      "total_miles": 5315.3
+      "total_miles_events": 5315.3,
+      "total_hours_events": 91.14,
+      "season_totals": {
+        "Spring": {
+          "miles": 3865.2,
+          "hours": 66.08
+        },
+        "Fall": {
+          "miles": 1450.1,
+          "hours": 25.06
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Kootenai Composite": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 687.0,
-        "Ephrata - Riverside State Park - 2023-4-30": 312.9,
-        "Spokane - Riverside State Park - 2023-5-14": 77.7,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 428.0,
-        "Bellingham - Galbraith - 2023-6-11": 791.7,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 757.7,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 419.7,
-        "Spokane - Riverside State Park - 2024-4-14": 77.7,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 428.0,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 464.9,
-        "Gig Harbor - 360 Trails - 2024-5-19": 687.0,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 419.7,
-        "Cle Elum - Roslyn High School - 2024-9-29": 460.9,
-        "Gig Harbor - 360 Trails - 2024-10-13": 687.0,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 667.5,
-        "Cle Elum - Roslyn High School - 2025-4-27": 460.9,
-        "Leavenworth - Ski Hill - 2025-5-4": 453.0,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 428.0,
-        "Gig Harbor - 360 Trails - 2025-6-1": 687.0,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 667.5,
-        "Twisp - Loup Loup - 2025-10-12": 392.6
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 687.0,
+          "hours": 10.76
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 312.9,
+          "hours": 5.12
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 77.7,
+          "hours": 1.92
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 428.0,
+          "hours": 7.92
+        },
+        "Bellingham, Galbraith": {
+          "miles": 791.7,
+          "hours": 12.16
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 757.7,
+          "hours": 11.86
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 419.7,
+          "hours": 6.9
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 464.9,
+          "hours": 7.16
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 460.9,
+          "hours": 7.11
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 667.5,
+          "hours": 10.62
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 453.0,
+          "hours": 7.6
+        },
+        "Twisp, Loup Loup": {
+          "miles": 392.6,
+          "hours": 7.23
+        }
       },
-      "total_miles": 10456.3
+      "total_miles_events": 10456.4,
+      "total_hours_events": 171.03,
+      "season_totals": {
+        "Spring": {
+          "miles": 7071.0,
+          "hours": 116.55
+        },
+        "Fall": {
+          "miles": 3385.4,
+          "hours": 54.48
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Mercer Island": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 108.9,
-        "Ephrata - Riverside State Park - 2023-4-30": 330.8,
-        "Spokane - Riverside State Park - 2023-5-14": 556.1,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 394.3,
-        "Bellingham - Galbraith - 2023-6-11": 191.0,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 67.7,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 292.9,
-        "Spokane - Riverside State Park - 2024-4-14": 556.1,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 394.3,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 168.5,
-        "Gig Harbor - 360 Trails - 2024-5-19": 108.9,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 292.9,
-        "Cle Elum - Roslyn High School - 2024-9-29": 154.3,
-        "Gig Harbor - 360 Trails - 2024-10-13": 108.9,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 89.4,
-        "Cle Elum - Roslyn High School - 2025-4-27": 154.3,
-        "Leavenworth - Ski Hill - 2025-5-4": 229.4,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 394.3,
-        "Gig Harbor - 360 Trails - 2025-6-1": 108.9,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 89.4,
-        "Twisp - Loup Loup - 2025-10-12": 433.9
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 108.9,
+          "hours": 2.06
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 330.8,
+          "hours": 5.12
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 556.1,
+          "hours": 8.47
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 394.3,
+          "hours": 7.68
+        },
+        "Bellingham, Galbraith": {
+          "miles": 191.0,
+          "hours": 3.15
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 67.7,
+          "hours": 3.24
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 292.9,
+          "hours": 5.91
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 168.5,
+          "hours": 2.69
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 154.3,
+          "hours": 2.47
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 89.4,
+          "hours": 1.92
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 229.4,
+          "hours": 4.35
+        },
+        "Twisp, Loup Loup": {
+          "miles": 433.9,
+          "hours": 8.54
+        }
       },
-      "total_miles": 5225.6
+      "total_miles_events": 5225.2,
+      "total_hours_events": 95.91,
+      "season_totals": {
+        "Spring": {
+          "miles": 4078.1,
+          "hours": 71.77
+        },
+        "Fall": {
+          "miles": 1147.1,
+          "hours": 24.14
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Methow Valley Composite": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 509.6,
-        "Ephrata - Riverside State Park - 2023-4-30": 221.9,
-        "Spokane - Riverside State Park - 2023-5-14": 343.6,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 21.0,
-        "Bellingham - Galbraith - 2023-6-11": 335.4,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 415.1,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 192.5,
-        "Spokane - Riverside State Park - 2024-4-14": 343.6,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 21.0,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 391.9,
-        "Gig Harbor - 360 Trails - 2024-5-19": 509.6,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 192.5,
-        "Cle Elum - Roslyn High School - 2024-9-29": 388.0,
-        "Gig Harbor - 360 Trails - 2024-10-13": 509.6,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 490.1,
-        "Cle Elum - Roslyn High School - 2025-4-27": 388.0,
-        "Leavenworth - Ski Hill - 2025-5-4": 209.5,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 21.0,
-        "Gig Harbor - 360 Trails - 2025-6-1": 509.6,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 490.1,
-        "Twisp - Loup Loup - 2025-10-12": 20.5
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 509.6,
+          "hours": 9.81
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 221.9,
+          "hours": 3.98
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 343.6,
+          "hours": 6.17
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 21.0,
+          "hours": 0.5
+        },
+        "Bellingham, Galbraith": {
+          "miles": 335.4,
+          "hours": 6.77
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 415.1,
+          "hours": 10.07
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 192.5,
+          "hours": 3.64
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 391.9,
+          "hours": 6.71
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 388.0,
+          "hours": 6.66
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 490.1,
+          "hours": 9.67
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 209.5,
+          "hours": 3.85
+        },
+        "Twisp, Loup Loup": {
+          "miles": 20.5,
+          "hours": 0.46
+        }
       },
-      "total_miles": 6524.4
+      "total_miles_events": 6524.1,
+      "total_hours_events": 124.86,
+      "season_totals": {
+        "Spring": {
+          "miles": 4508.3,
+          "hours": 84.55
+        },
+        "Fall": {
+          "miles": 2015.8,
+          "hours": 40.31
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Metro Seattle MTB": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 118.2,
-        "Ephrata - Riverside State Park - 2023-4-30": 347.9,
-        "Spokane - Riverside State Park - 2023-5-14": 573.1,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 380.1,
-        "Bellingham - Galbraith - 2023-6-11": 176.8,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 58.2,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 295.2,
-        "Spokane - Riverside State Park - 2024-4-14": 573.1,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 380.1,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 185.6,
-        "Gig Harbor - 360 Trails - 2024-5-19": 118.2,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 295.2,
-        "Cle Elum - Roslyn High School - 2024-9-29": 171.3,
-        "Gig Harbor - 360 Trails - 2024-10-13": 118.2,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 98.7,
-        "Cle Elum - Roslyn High School - 2025-4-27": 171.3,
-        "Leavenworth - Ski Hill - 2025-5-4": 231.7,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 380.1,
-        "Gig Harbor - 360 Trails - 2025-6-1": 118.2,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 98.7,
-        "Twisp - Loup Loup - 2025-10-12": 419.7
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 118.2,
+          "hours": 2.28
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 347.9,
+          "hours": 5.52
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 573.1,
+          "hours": 8.87
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 380.1,
+          "hours": 7.49
+        },
+        "Bellingham, Galbraith": {
+          "miles": 176.8,
+          "hours": 2.96
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 58.2,
+          "hours": 3.11
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 295.2,
+          "hours": 6.1
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 185.6,
+          "hours": 3.09
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 171.3,
+          "hours": 2.86
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 98.7,
+          "hours": 2.14
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 231.7,
+          "hours": 4.54
+        },
+        "Twisp, Loup Loup": {
+          "miles": 419.7,
+          "hours": 8.35
+        }
       },
-      "total_miles": 5309.6
+      "total_miles_events": 5309.6,
+      "total_hours_events": 99.1,
+      "season_totals": {
+        "Spring": {
+          "miles": 4148.3,
+          "hours": 74.26
+        },
+        "Fall": {
+          "miles": 1161.3,
+          "hours": 24.84
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Monroe Composite": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 164.6,
-        "Ephrata - Riverside State Park - 2023-4-30": 307.2,
-        "Spokane - Riverside State Park - 2023-5-14": 611.5,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 364.2,
-        "Bellingham - Galbraith - 2023-6-11": 160.9,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 96.6,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 225.7,
-        "Spokane - Riverside State Park - 2024-4-14": 611.5,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 364.2,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 224.0,
-        "Gig Harbor - 360 Trails - 2024-5-19": 164.6,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 225.7,
-        "Cle Elum - Roslyn High School - 2024-9-29": 209.7,
-        "Gig Harbor - 360 Trails - 2024-10-13": 164.6,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 145.0,
-        "Cle Elum - Roslyn High School - 2025-4-27": 209.7,
-        "Leavenworth - Ski Hill - 2025-5-4": 162.3,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 364.2,
-        "Gig Harbor - 360 Trails - 2025-6-1": 164.6,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 145.0,
-        "Twisp - Loup Loup - 2025-10-12": 391.8
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 164.6,
+          "hours": 3.11
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 307.2,
+          "hours": 5.97
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 611.5,
+          "hours": 9.54
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 364.2,
+          "hours": 7.36
+        },
+        "Bellingham, Galbraith": {
+          "miles": 160.9,
+          "hours": 2.83
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 96.6,
+          "hours": 3.83
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 225.7,
+          "hours": 4.65
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 224.0,
+          "hours": 3.75
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 209.7,
+          "hours": 3.53
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 145.0,
+          "hours": 2.97
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 162.3,
+          "hours": 3.09
+        },
+        "Twisp, Loup Loup": {
+          "miles": 391.8,
+          "hours": 7.38
+        }
       },
-      "total_miles": 5477.6
+      "total_miles_events": 5477.6,
+      "total_hours_events": 102.75,
+      "season_totals": {
+        "Spring": {
+          "miles": 4244.2,
+          "hours": 77.28
+        },
+        "Fall": {
+          "miles": 1233.4,
+          "hours": 25.47
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Mt. Si MTB": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 141.4,
-        "Ephrata - Riverside State Park - 2023-4-30": 266.4,
-        "Spokane - Riverside State Park - 2023-5-14": 491.6,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 493.5,
-        "Bellingham - Galbraith - 2023-6-11": 246.1,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 212.1,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 319.8,
-        "Spokane - Riverside State Park - 2024-4-14": 491.6,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 493.5,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 104.0,
-        "Gig Harbor - 360 Trails - 2024-5-19": 141.4,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 319.8,
-        "Cle Elum - Roslyn High School - 2024-9-29": 89.8,
-        "Gig Harbor - 360 Trails - 2024-10-13": 141.4,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 121.9,
-        "Cle Elum - Roslyn High School - 2025-4-27": 89.8,
-        "Leavenworth - Ski Hill - 2025-5-4": 263.3,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 493.5,
-        "Gig Harbor - 360 Trails - 2025-6-1": 141.4,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 121.9,
-        "Twisp - Loup Loup - 2025-10-12": 473.8
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 141.4,
+          "hours": 2.61
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 266.4,
+          "hours": 4.15
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 491.6,
+          "hours": 7.5
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 493.5,
+          "hours": 8.37
+        },
+        "Bellingham, Galbraith": {
+          "miles": 246.1,
+          "hours": 4.01
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 212.1,
+          "hours": 3.71
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 319.8,
+          "hours": 5.28
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 104.0,
+          "hours": 1.72
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 89.8,
+          "hours": 1.5
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 121.9,
+          "hours": 2.47
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 263.3,
+          "hours": 5.21
+        },
+        "Twisp, Loup Loup": {
+          "miles": 473.8,
+          "hours": 7.96
+        }
       },
-      "total_miles": 5658.0
+      "total_miles_events": 5658.0,
+      "total_hours_events": 95.81,
+      "season_totals": {
+        "Spring": {
+          "miles": 4299.2,
+          "hours": 72.28
+        },
+        "Fall": {
+          "miles": 1358.8,
+          "hours": 23.53
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Northshore Composite": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 129.4,
-        "Ephrata - Riverside State Park - 2023-4-30": 351.1,
-        "Spokane - Riverside State Park - 2023-5-14": 576.3,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 364.9,
-        "Bellingham - Galbraith - 2023-6-11": 161.6,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 62.7,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 263.2,
-        "Spokane - Riverside State Park - 2024-4-14": 576.3,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 364.9,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 188.8,
-        "Gig Harbor - 360 Trails - 2024-5-19": 129.4,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 263.2,
-        "Cle Elum - Roslyn High School - 2024-9-29": 174.6,
-        "Gig Harbor - 360 Trails - 2024-10-13": 129.4,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 109.9,
-        "Cle Elum - Roslyn High School - 2025-4-27": 174.6,
-        "Leavenworth - Ski Hill - 2025-5-4": 199.8,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 364.9,
-        "Gig Harbor - 360 Trails - 2025-6-1": 129.4,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 109.9,
-        "Twisp - Loup Loup - 2025-10-12": 404.5
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 129.4,
+          "hours": 2.35
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 351.1,
+          "hours": 5.43
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 576.3,
+          "hours": 8.78
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 364.9,
+          "hours": 7.14
+        },
+        "Bellingham, Galbraith": {
+          "miles": 161.6,
+          "hours": 2.62
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 62.7,
+          "hours": 3.09
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 263.2,
+          "hours": 5.36
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 188.8,
+          "hours": 3.0
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 174.6,
+          "hours": 2.77
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 109.9,
+          "hours": 2.21
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 199.8,
+          "hours": 3.8
+        },
+        "Twisp, Loup Loup": {
+          "miles": 404.5,
+          "hours": 8.0
+        }
       },
-      "total_miles": 5228.9
+      "total_miles_events": 5228.8,
+      "total_hours_events": 95.0,
+      "season_totals": {
+        "Spring": {
+          "miles": 4084.5,
+          "hours": 71.22
+        },
+        "Fall": {
+          "miles": 1144.3,
+          "hours": 23.78
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Palouse Composite": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 656.0,
-        "Ephrata - Riverside State Park - 2023-4-30": 323.2,
-        "Spokane - Riverside State Park - 2023-5-14": 180.7,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 503.7,
-        "Bellingham - Galbraith - 2023-6-11": 760.7,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 726.7,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 430.2,
-        "Spokane - Riverside State Park - 2024-4-14": 180.7,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 503.7,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 433.9,
-        "Gig Harbor - 360 Trails - 2024-5-19": 656.0,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 430.2,
-        "Cle Elum - Roslyn High School - 2024-9-29": 429.9,
-        "Gig Harbor - 360 Trails - 2024-10-13": 656.0,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 636.5,
-        "Cle Elum - Roslyn High School - 2025-4-27": 429.9,
-        "Leavenworth - Ski Hill - 2025-5-4": 463.4,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 503.7,
-        "Gig Harbor - 360 Trails - 2025-6-1": 656.0,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 636.5,
-        "Twisp - Loup Loup - 2025-10-12": 468.2
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 656.0,
+          "hours": 10.98
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 323.2,
+          "hours": 5.86
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 180.7,
+          "hours": 3.6
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 503.7,
+          "hours": 9.53
+        },
+        "Bellingham, Galbraith": {
+          "miles": 760.7,
+          "hours": 12.38
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 726.7,
+          "hours": 12.09
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 430.2,
+          "hours": 7.65
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 433.9,
+          "hours": 7.38
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 429.9,
+          "hours": 7.33
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 636.5,
+          "hours": 10.84
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 463.4,
+          "hours": 8.35
+        },
+        "Twisp, Loup Loup": {
+          "miles": 468.2,
+          "hours": 8.84
+        }
       },
-      "total_miles": 10665.7
+      "total_miles_events": 10665.8,
+      "total_hours_events": 186.25,
+      "season_totals": {
+        "Spring": {
+          "miles": 7318.3,
+          "hours": 128.52
+        },
+        "Fall": {
+          "miles": 3347.5,
+          "hours": 57.73
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Pilchuck Composite": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 201.5,
-        "Ephrata - Riverside State Park - 2023-4-30": 423.2,
-        "Spokane - Riverside State Park - 2023-5-14": 648.5,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 289.5,
-        "Bellingham - Galbraith - 2023-6-11": 102.6,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 107.0,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 291.0,
-        "Spokane - Riverside State Park - 2024-4-14": 648.5,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 289.5,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 260.9,
-        "Gig Harbor - 360 Trails - 2024-5-19": 201.5,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 291.0,
-        "Cle Elum - Roslyn High School - 2024-9-29": 246.7,
-        "Gig Harbor - 360 Trails - 2024-10-13": 201.5,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 182.0,
-        "Cle Elum - Roslyn High School - 2025-4-27": 246.7,
-        "Leavenworth - Ski Hill - 2025-5-4": 227.6,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 289.5,
-        "Gig Harbor - 360 Trails - 2025-6-1": 201.5,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 182.0,
-        "Twisp - Loup Loup - 2025-10-12": 329.1
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 201.5,
+          "hours": 3.61
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 423.2,
+          "hours": 6.69
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 648.5,
+          "hours": 10.04
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 289.5,
+          "hours": 5.81
+        },
+        "Bellingham, Galbraith": {
+          "miles": 102.6,
+          "hours": 1.78
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 107.0,
+          "hours": 3.87
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 291.0,
+          "hours": 6.09
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 260.9,
+          "hours": 4.26
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 246.7,
+          "hours": 4.03
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 182.0,
+          "hours": 3.47
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 227.6,
+          "hours": 4.53
+        },
+        "Twisp, Loup Loup": {
+          "miles": 329.1,
+          "hours": 6.67
+        }
       },
-      "total_miles": 5861.5
+      "total_miles_events": 5861.3,
+      "total_hours_events": 106.93,
+      "season_totals": {
+        "Spring": {
+          "miles": 4504.0,
+          "hours": 79.19
+        },
+        "Fall": {
+          "miles": 1357.3,
+          "hours": 27.74
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Snohomish Composite": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 168.9,
-        "Ephrata - Riverside State Park - 2023-4-30": 390.7,
-        "Spokane - Riverside State Park - 2023-5-14": 615.9,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 334.0,
-        "Bellingham - Galbraith - 2023-6-11": 146.3,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 92.0,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 250.0,
-        "Spokane - Riverside State Park - 2024-4-14": 615.9,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 334.0,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 228.3,
-        "Gig Harbor - 360 Trails - 2024-5-19": 168.9,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 250.0,
-        "Cle Elum - Roslyn High School - 2024-9-29": 214.1,
-        "Gig Harbor - 360 Trails - 2024-10-13": 168.9,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 149.4,
-        "Cle Elum - Roslyn High School - 2025-4-27": 214.1,
-        "Leavenworth - Ski Hill - 2025-5-4": 186.5,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 334.0,
-        "Gig Harbor - 360 Trails - 2025-6-1": 168.9,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 149.4,
-        "Twisp - Loup Loup - 2025-10-12": 373.6
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 168.9,
+          "hours": 3.28
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 390.7,
+          "hours": 6.36
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 615.9,
+          "hours": 9.7
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 334.0,
+          "hours": 6.96
+        },
+        "Bellingham, Galbraith": {
+          "miles": 146.3,
+          "hours": 2.54
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 92.0,
+          "hours": 3.71
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 250.0,
+          "hours": 5.27
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 228.3,
+          "hours": 3.92
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 214.1,
+          "hours": 3.7
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 149.4,
+          "hours": 3.14
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 186.5,
+          "hours": 3.71
+        },
+        "Twisp, Loup Loup": {
+          "miles": 373.6,
+          "hours": 7.82
+        }
       },
-      "total_miles": 5553.9
+      "total_miles_events": 5553.8,
+      "total_hours_events": 105.68,
+      "season_totals": {
+        "Spring": {
+          "miles": 4305.8,
+          "hours": 78.76
+        },
+        "Fall": {
+          "miles": 1248.0,
+          "hours": 26.92
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Spokane Valley": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 640.5,
-        "Ephrata - Riverside State Park - 2023-4-30": 266.4,
-        "Spokane - Riverside State Park - 2023-5-14": 48.8,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 381.6,
-        "Bellingham - Galbraith - 2023-6-11": 745.3,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 711.3,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 373.3,
-        "Spokane - Riverside State Park - 2024-4-14": 48.8,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 381.6,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 418.4,
-        "Gig Harbor - 360 Trails - 2024-5-19": 640.5,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 373.3,
-        "Cle Elum - Roslyn High School - 2024-9-29": 414.4,
-        "Gig Harbor - 360 Trails - 2024-10-13": 640.5,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 621.0,
-        "Cle Elum - Roslyn High School - 2025-4-27": 414.4,
-        "Leavenworth - Ski Hill - 2025-5-4": 406.5,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 381.6,
-        "Gig Harbor - 360 Trails - 2025-6-1": 640.5,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 621.0,
-        "Twisp - Loup Loup - 2025-10-12": 346.1
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 640.5,
+          "hours": 9.94
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 266.4,
+          "hours": 4.31
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 48.8,
+          "hours": 1.13
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 381.6,
+          "hours": 7.11
+        },
+        "Bellingham, Galbraith": {
+          "miles": 745.3,
+          "hours": 11.34
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 711.3,
+          "hours": 11.05
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 373.3,
+          "hours": 6.08
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 418.4,
+          "hours": 6.34
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 414.4,
+          "hours": 6.29
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 621.0,
+          "hours": 9.8
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 406.5,
+          "hours": 6.78
+        },
+        "Twisp, Loup Loup": {
+          "miles": 346.1,
+          "hours": 6.42
+        }
       },
-      "total_miles": 9515.7
+      "total_miles_events": 9515.8,
+      "total_hours_events": 153.93,
+      "season_totals": {
+        "Spring": {
+          "miles": 6409.2,
+          "hours": 104.35
+        },
+        "Fall": {
+          "miles": 3106.6,
+          "hours": 49.58
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Sultan-Sky MTB": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 182.1,
-        "Ephrata - Riverside State Park - 2023-4-30": 306.9,
-        "Spokane - Riverside State Park - 2023-5-14": 521.9,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 387.4,
-        "Bellingham - Galbraith - 2023-6-11": 178.4,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 114.2,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 225.4,
-        "Spokane - Riverside State Park - 2024-4-14": 521.9,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 387.4,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 241.5,
-        "Gig Harbor - 360 Trails - 2024-5-19": 182.1,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 225.4,
-        "Cle Elum - Roslyn High School - 2024-9-29": 227.3,
-        "Gig Harbor - 360 Trails - 2024-10-13": 182.1,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 162.6,
-        "Cle Elum - Roslyn High School - 2025-4-27": 227.3,
-        "Leavenworth - Ski Hill - 2025-5-4": 161.9,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 387.4,
-        "Gig Harbor - 360 Trails - 2025-6-1": 182.1,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 162.6,
-        "Twisp - Loup Loup - 2025-10-12": 391.5
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 182.1,
+          "hours": 3.72
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 306.9,
+          "hours": 6.15
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 521.9,
+          "hours": 9.73
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 387.4,
+          "hours": 7.44
+        },
+        "Bellingham, Galbraith": {
+          "miles": 178.4,
+          "hours": 3.44
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 114.2,
+          "hours": 4.45
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 225.4,
+          "hours": 4.82
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 241.5,
+          "hours": 4.37
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 227.3,
+          "hours": 4.15
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 162.6,
+          "hours": 3.59
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 161.9,
+          "hours": 3.26
+        },
+        "Twisp, Loup Loup": {
+          "miles": 391.5,
+          "hours": 7.55
+        }
       },
-      "total_miles": 5559.0
+      "total_miles_events": 5559.4,
+      "total_hours_events": 111.0,
+      "season_totals": {
+        "Spring": {
+          "miles": 4256.3,
+          "hours": 82.72
+        },
+        "Fall": {
+          "miles": 1303.1,
+          "hours": 28.28
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Tahoma MTB": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 96.2,
-        "Ephrata - Riverside State Park - 2023-4-30": 312.4,
-        "Spokane - Riverside State Park - 2023-5-14": 537.6,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 424.7,
-        "Bellingham - Galbraith - 2023-6-11": 221.4,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 166.9,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 365.9,
-        "Spokane - Riverside State Park - 2024-4-14": 537.6,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 424.7,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 150.1,
-        "Gig Harbor - 360 Trails - 2024-5-19": 96.2,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 365.9,
-        "Cle Elum - Roslyn High School - 2024-9-29": 135.9,
-        "Gig Harbor - 360 Trails - 2024-10-13": 96.2,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 76.6,
-        "Cle Elum - Roslyn High School - 2025-4-27": 135.9,
-        "Leavenworth - Ski Hill - 2025-5-4": 259.9,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 424.7,
-        "Gig Harbor - 360 Trails - 2025-6-1": 96.2,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 76.6,
-        "Twisp - Loup Loup - 2025-10-12": 519.8
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 96.2,
+          "hours": 1.74
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 312.4,
+          "hours": 4.92
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 537.6,
+          "hours": 8.27
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 424.7,
+          "hours": 8.39
+        },
+        "Bellingham, Galbraith": {
+          "miles": 221.4,
+          "hours": 3.87
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 166.9,
+          "hours": 2.84
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 365.9,
+          "hours": 6.05
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 150.1,
+          "hours": 2.49
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 135.9,
+          "hours": 2.27
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 76.6,
+          "hours": 1.6
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 259.9,
+          "hours": 5.06
+        },
+        "Twisp, Loup Loup": {
+          "miles": 519.8,
+          "hours": 8.73
+        }
       },
-      "total_miles": 5521.4
+      "total_miles_events": 5521.4,
+      "total_hours_events": 96.42,
+      "season_totals": {
+        "Spring": {
+          "miles": 4160.1,
+          "hours": 73.19
+        },
+        "Fall": {
+          "miles": 1361.3,
+          "hours": 23.23
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Three Rivers Devo": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 521.7,
-        "Ephrata - Riverside State Park - 2023-4-30": 212.2,
-        "Spokane - Riverside State Park - 2023-5-14": 310.5,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 454.0,
-        "Bellingham - Galbraith - 2023-6-11": 626.4,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 592.4,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 301.8,
-        "Spokane - Riverside State Park - 2024-4-14": 310.5,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 454.0,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 299.5,
-        "Gig Harbor - 360 Trails - 2024-5-19": 521.7,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 301.8,
-        "Cle Elum - Roslyn High School - 2024-9-29": 295.5,
-        "Gig Harbor - 360 Trails - 2024-10-13": 521.7,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 502.2,
-        "Cle Elum - Roslyn High School - 2025-4-27": 295.5,
-        "Leavenworth - Ski Hill - 2025-5-4": 335.0,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 454.0,
-        "Gig Harbor - 360 Trails - 2025-6-1": 521.7,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 502.2,
-        "Twisp - Loup Loup - 2025-10-12": 418.5
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 521.7,
+          "hours": 8.31
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 212.2,
+          "hours": 4.04
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 310.5,
+          "hours": 5.25
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 454.0,
+          "hours": 8.35
+        },
+        "Bellingham, Galbraith": {
+          "miles": 626.4,
+          "hours": 9.71
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 592.4,
+          "hours": 9.42
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 301.8,
+          "hours": 5.59
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 299.5,
+          "hours": 4.71
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 295.5,
+          "hours": 4.66
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 502.2,
+          "hours": 8.17
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 335.0,
+          "hours": 6.29
+        },
+        "Twisp, Loup Loup": {
+          "miles": 418.5,
+          "hours": 7.66
+        }
       },
-      "total_miles": 8752.8
+      "total_miles_events": 8752.8,
+      "total_hours_events": 147.46,
+      "season_totals": {
+        "Spring": {
+          "miles": 6120.7,
+          "hours": 103.65
+        },
+        "Fall": {
+          "miles": 2632.1,
+          "hours": 43.81
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Wenatchee Devo": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 451.6,
-        "Ephrata - Riverside State Park - 2023-4-30": 107.0,
-        "Spokane - Riverside State Park - 2023-5-14": 357.1,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 204.0,
-        "Bellingham - Galbraith - 2023-6-11": 377.8,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 313.5,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 24.2,
-        "Spokane - Riverside State Park - 2024-4-14": 357.1,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 204.0,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 229.5,
-        "Gig Harbor - 360 Trails - 2024-5-19": 451.6,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 24.2,
-        "Cle Elum - Roslyn High School - 2024-9-29": 225.5,
-        "Gig Harbor - 360 Trails - 2024-10-13": 451.6,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 432.1,
-        "Cle Elum - Roslyn High School - 2025-4-27": 225.5,
-        "Leavenworth - Ski Hill - 2025-5-4": 56.7,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 204.0,
-        "Gig Harbor - 360 Trails - 2025-6-1": 451.6,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 432.1,
-        "Twisp - Loup Loup - 2025-10-12": 208.1
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 451.6,
+          "hours": 7.95
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 107.0,
+          "hours": 2.6
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 357.1,
+          "hours": 6.33
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 204.0,
+          "hours": 4.36
+        },
+        "Bellingham, Galbraith": {
+          "miles": 377.8,
+          "hours": 7.59
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 313.5,
+          "hours": 8.59
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 24.2,
+          "hours": 1.09
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 229.5,
+          "hours": 4.35
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 225.5,
+          "hours": 4.3
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 432.1,
+          "hours": 7.81
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 56.7,
+          "hours": 1.88
+        },
+        "Twisp, Loup Loup": {
+          "miles": 208.1,
+          "hours": 4.47
+        }
       },
-      "total_miles": 5788.8
+      "total_miles_events": 5788.8,
+      "total_hours_events": 113.42,
+      "season_totals": {
+        "Spring": {
+          "miles": 4133.8,
+          "hours": 79.21
+        },
+        "Fall": {
+          "miles": 1655.0,
+          "hours": 34.21
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
     },
     "Yakima": {
-      "races": {
-        "Gig Harbor - 360 Trails - 2023-4-16": 372.8,
-        "Ephrata - Riverside State Park - 2023-4-30": 212.8,
-        "Spokane - Riverside State Park - 2023-5-14": 438.0,
-        "Winthrop - Liberty Bell High School - 2023-6-04": 439.9,
-        "Bellingham - Galbraith - 2023-6-11": 477.5,
-        "Port Gamble - Port Gamble (Race + Camping) - 2023-9-17": 443.5,
-        "Wenatchee - Squilchuck State Park - 2023-10-08": 266.2,
-        "Spokane - Riverside State Park - 2024-4-14": 438.0,
-        "Winthrop - Liberty Bell High School - 2024-4-28": 439.9,
-        "Cle Elum - Flying Horseshoe Ranch (Relay) - 2024-5-05": 150.7,
-        "Gig Harbor - 360 Trails - 2024-5-19": 372.8,
-        "Wenatchee - Squilchuck State Park - 2024-6-02": 266.2,
-        "Cle Elum - Roslyn High School - 2024-9-29": 146.7,
-        "Gig Harbor - 360 Trails - 2024-10-13": 372.8,
-        "Lakewood - Fort Steilacoom - 2025-4-13": 353.3,
-        "Cle Elum - Roslyn High School - 2025-4-27": 146.7,
-        "Leavenworth - Ski Hill - 2025-5-4": 299.5,
-        "Winthrop - Liberty Bell High School - 2025-5-18": 439.9,
-        "Gig Harbor - 360 Trails - 2025-6-1": 372.8,
-        "Lakewood - Fort Steilacoom - 2025-9-28": 353.3,
-        "Twisp - Loup Loup - 2025-10-12": 420.2
+      "venues": {
+        "Gig Harbor, 360 Trails": {
+          "miles": 372.8,
+          "hours": 6.26
+        },
+        "Ephrata, Ephrata, WA": {
+          "miles": 212.8,
+          "hours": 3.66
+        },
+        "Spokane, Riverside State Park": {
+          "miles": 438.0,
+          "hours": 7.01
+        },
+        "Winthrop, Liberty Bell High School": {
+          "miles": 439.9,
+          "hours": 7.88
+        },
+        "Bellingham, Galbraith": {
+          "miles": 477.5,
+          "hours": 7.66
+        },
+        "Port Gamble, Port Gamble (Race + Camping)": {
+          "miles": 443.5,
+          "hours": 7.36
+        },
+        "Wenatchee, Squilchuck State Park": {
+          "miles": 266.2,
+          "hours": 4.79
+        },
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": {
+          "miles": 150.7,
+          "hours": 2.66
+        },
+        "Cle Elum, Roslyn High School": {
+          "miles": 146.7,
+          "hours": 2.61
+        },
+        "Lakewood, Fort Steilacoom": {
+          "miles": 353.3,
+          "hours": 6.12
+        },
+        "Leavenworth, Ski Hill": {
+          "miles": 299.5,
+          "hours": 5.49
+        },
+        "Twisp, Loup Loup": {
+          "miles": 420.2,
+          "hours": 7.47
+        }
       },
-      "total_miles": 7223.5
+      "total_miles_events": 7223.5,
+      "total_hours_events": 124.04,
+      "season_totals": {
+        "Spring": {
+          "miles": 5220.8,
+          "hours": 89.43
+        },
+        "Fall": {
+          "miles": 2002.7,
+          "hours": 34.61
+        },
+        "Other": {
+          "miles": 0.0,
+          "hours": 0.0
+        }
+      }
+    }
+  },
+  "aggregates": {
+    "venue_event_counts": {
+      "Gig Harbor, 360 Trails": 4,
+      "Ephrata, Ephrata, WA": 1,
+      "Spokane, Riverside State Park": 2,
+      "Winthrop, Liberty Bell High School": 3,
+      "Bellingham, Galbraith": 1,
+      "Port Gamble, Port Gamble (Race + Camping)": 1,
+      "Wenatchee, Squilchuck State Park": 2,
+      "Cle Elum, Flying Horseshoe Ranch (Relay)": 1,
+      "Cle Elum, Roslyn High School": 2,
+      "Lakewood, Fort Steilacoom": 2,
+      "Leavenworth, Ski Hill": 1,
+      "Twisp, Loup Loup": 1
+    },
+    "venue_event_counts_by_season": {
+      "Spring": {
+        "Gig Harbor, 360 Trails": 3,
+        "Ephrata, Ephrata, WA": 1,
+        "Spokane, Riverside State Park": 2,
+        "Winthrop, Liberty Bell High School": 3,
+        "Bellingham, Galbraith": 1,
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": 1,
+        "Wenatchee, Squilchuck State Park": 1,
+        "Lakewood, Fort Steilacoom": 1,
+        "Cle Elum, Roslyn High School": 1,
+        "Leavenworth, Ski Hill": 1
+      },
+      "Fall": {
+        "Port Gamble, Port Gamble (Race + Camping)": 1,
+        "Wenatchee, Squilchuck State Park": 1,
+        "Cle Elum, Roslyn High School": 1,
+        "Gig Harbor, 360 Trails": 1,
+        "Lakewood, Fort Steilacoom": 1,
+        "Twisp, Loup Loup": 1
+      }
+    },
+    "venue_total_miles": {
+      "Gig Harbor, 360 Trails": 30352.0,
+      "Ephrata, Ephrata, WA": 9048.3,
+      "Spokane, Riverside State Park": 26988.2,
+      "Winthrop, Liberty Bell High School": 31429.5,
+      "Bellingham, Galbraith": 8747.3,
+      "Port Gamble, Port Gamble (Race + Camping)": 7283.0,
+      "Wenatchee, Squilchuck State Park": 17154.4,
+      "Cle Elum, Flying Horseshoe Ranch (Relay)": 7243.7,
+      "Cle Elum, Roslyn High School": 13894.8,
+      "Lakewood, Fort Steilacoom": 14264.8,
+      "Leavenworth, Ski Hill": 7363.2,
+      "Twisp, Loup Loup": 10970.0
+    },
+    "venue_total_hours": {
+      "Gig Harbor, 360 Trails": 528.24,
+      "Ephrata, Ephrata, WA": 150.84,
+      "Spokane, Riverside State Park": 434.28,
+      "Winthrop, Liberty Bell High School": 612.99,
+      "Bellingham, Galbraith": 147.86,
+      "Port Gamble, Port Gamble (Race + Camping)": 152.77,
+      "Wenatchee, Squilchuck State Park": 322.38,
+      "Cle Elum, Flying Horseshoe Ranch (Relay)": 120.41,
+      "Cle Elum, Roslyn High School": 231.46,
+      "Lakewood, Fort Steilacoom": 258.98,
+      "Leavenworth, Ski Hill": 140.2,
+      "Twisp, Loup Loup": 211.69
+    },
+    "venue_total_miles_by_season": {
+      "Spring": {
+        "Gig Harbor, 360 Trails": 22764.0,
+        "Ephrata, Ephrata, WA": 9048.3,
+        "Spokane, Riverside State Park": 26988.2,
+        "Winthrop, Liberty Bell High School": 31429.5,
+        "Bellingham, Galbraith": 8747.3,
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": 7243.7,
+        "Wenatchee, Squilchuck State Park": 8577.2,
+        "Lakewood, Fort Steilacoom": 7132.4,
+        "Cle Elum, Roslyn High School": 6947.4,
+        "Leavenworth, Ski Hill": 7363.2
+      },
+      "Fall": {
+        "Port Gamble, Port Gamble (Race + Camping)": 7283.0,
+        "Wenatchee, Squilchuck State Park": 8577.2,
+        "Cle Elum, Roslyn High School": 6947.4,
+        "Gig Harbor, 360 Trails": 7588.0,
+        "Lakewood, Fort Steilacoom": 7132.4,
+        "Twisp, Loup Loup": 10970.0
+      }
+    },
+    "venue_total_hours_by_season": {
+      "Spring": {
+        "Gig Harbor, 360 Trails": 396.18,
+        "Ephrata, Ephrata, WA": 150.84,
+        "Spokane, Riverside State Park": 434.28,
+        "Winthrop, Liberty Bell High School": 612.99,
+        "Bellingham, Galbraith": 147.86,
+        "Cle Elum, Flying Horseshoe Ranch (Relay)": 120.41,
+        "Wenatchee, Squilchuck State Park": 161.19,
+        "Lakewood, Fort Steilacoom": 129.49,
+        "Cle Elum, Roslyn High School": 115.73,
+        "Leavenworth, Ski Hill": 140.2
+      },
+      "Fall": {
+        "Port Gamble, Port Gamble (Race + Camping)": 152.77,
+        "Wenatchee, Squilchuck State Park": 161.19,
+        "Cle Elum, Roslyn High School": 115.73,
+        "Gig Harbor, 360 Trails": 132.06,
+        "Lakewood, Fort Steilacoom": 129.49,
+        "Twisp, Loup Loup": 211.69
+      }
     }
   },
   "metadata": {
-    "generated_at": "2025-09-29 20:45:13",
+    "generated_at": "2025-09-29 21:11:58",
     "total_teams": 28,
-    "total_races": 21
+    "total_venues": 12,
+    "total_events": 21
   }
 }
