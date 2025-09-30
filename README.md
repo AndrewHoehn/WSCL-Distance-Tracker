@@ -60,9 +60,11 @@ The generated `bike_league_data.json` includes:
 ## Setup & Running
 
 1. Install deps:
-   ```bash
+
+```
+bash
    pip install requests
-```'
+```
 
 2. Configure your API key:
    Edit the top of `calculator.py` and set `GOOGLE_API_KEY`.
@@ -74,7 +76,8 @@ The generated `bike_league_data.json` includes:
 
 4. Run the ETL:
 
-   ```bash
+   ```
+   bash
    python3 calculator.py
    ```
 
