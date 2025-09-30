@@ -113,7 +113,7 @@
 
         function calculateFunStats() {
             const sorted = Object.entries(appData.distances).sort((a, b) => b[1].total_miles_events - a[1].total_miles_events);
-            
+
             document.getElementById('topTeam').textContent = sorted[0][0];
             document.getElementById('topMiles').textContent = formatNumberWithCommas(sorted[0][1].total_miles_events);
 
@@ -193,24 +193,36 @@
             const isAllTime = selectedSeason === 'all-time';
 
             let totals = {};
+            let title = 'All Time Distance Leaderboard';
+
             if (isAllTime) {
                 Object.entries(appData.distances).forEach(([team, data]) => {
                     totals[team] = { miles: data.total_miles_events, hours: data.total_hours_events };
                 });
             } else {
-                const [, seasonName] = selectedSeason.split(' ');
+                title = `${selectedSeason} Distance Leaderboard`;
+                const [year, seasonName] = selectedSeason.split(' ');
+
+                // Get the specific races for the selected year and season
+                const seasonRaces = appData.events.filter(event => event.year === year && event.season === seasonName);
+                const seasonRaceKeys = seasonRaces.map(event => event.location_key);
+
+                // Manually calculate the totals for each team for that specific season
                 Object.entries(appData.distances).forEach(([team, data]) => {
-                    totals[team] = {
-                        miles: data.season_totals[seasonName]?.miles || 0,
-                        hours: data.season_totals[seasonName]?.hours || 0
-                    };
+                    let seasonMiles = 0;
+                    let seasonHours = 0;
+                    seasonRaceKeys.forEach(raceKey => {
+                        seasonMiles += data.venues[raceKey]?.miles || 0;
+                        seasonHours += data.venues[raceKey]?.hours || 0;
+                    });
+                    totals[team] = { miles: seasonMiles, hours: seasonHours };
                 });
             }
 
             const sorted = Object.entries(totals).sort((a, b) => b[1].miles - a[1].miles);
 
             let html = '<div class="bg-gray-800 rounded-lg shadow-xl p-6">';
-            html += `<h2 class="text-2xl font-bold mb-6">${isAllTime ? 'All Time' : selectedSeason} Distance Leaderboard</h2>`;
+            html += `<h2 class="text-2xl font-bold mb-6">${title}</h2>`;
             html += '<div class="space-y-3">';
 
             sorted.forEach(([team, data], idx) => {
@@ -241,7 +253,7 @@
             html += '</div></div>';
             return html;
         }
-        
+
         function renderRaceView() {
             const raceKey = document.getElementById('raceSelect').value;
             const raceDistances = Object.entries(appData.distances)
