@@ -1,0 +1,1287 @@
+{
+  "teams": [
+    {
+      "name": "Anacortes Composite",
+      "city": "Anacortes Composite  Anacortes",
+      "state": "WA",
+      "zip": "98221",
+      "geocoded": {
+        "query": "98221",
+        "formatted_address": "Anacortes, WA 98221, USA",
+        "lat": 48.5013418,
+        "lng": -122.6403231
+      }
+    },
+    {
+      "name": "Bainbridge Island",
+      "city": "Bainbridge Island  Bainbridge Island",
+      "state": "WA",
+      "zip": "98110",
+      "geocoded": {
+        "query": "98110",
+        "formatted_address": "Bainbridge Island, WA 98110, USA",
+        "lat": 47.6458327,
+        "lng": -122.5434407
+      }
+    },
+    {
+      "name": "Bellingham XCO",
+      "city": "Bellingham XCO  Bellingham",
+      "state": "WA",
+      "zip": "98225",
+      "geocoded": {
+        "query": "98225",
+        "formatted_address": "Bellingham, WA 98225, USA",
+        "lat": 48.7562157,
+        "lng": -122.4894588
+      }
+    },
+    {
+      "name": "Bonney Lake",
+      "city": "Bonney Lake  Bonney Lake",
+      "state": "WA",
+      "zip": "98391",
+      "geocoded": {
+        "query": "98391",
+        "formatted_address": "Bonney Lake, WA 98391, USA",
+        "lat": 47.174049,
+        "lng": -122.1702757
+      }
+    },
+    {
+      "name": "Capitol City MTB",
+      "city": "Capitol City MTB  Olympia",
+      "state": "WA",
+      "zip": "98501",
+      "geocoded": {
+        "query": "98501",
+        "formatted_address": "Olympia, WA 98501, USA",
+        "lat": 46.9770179,
+        "lng": -122.858419
+      }
+    },
+    {
+      "name": "Cedarcrest MTB",
+      "city": "Cedarcrest MTB  Cedarcrest",
+      "state": "WA",
+      "zip": "98270",
+      "geocoded": {
+        "query": "98270",
+        "formatted_address": "Marysville, WA 98270, USA",
+        "lat": 48.0563616,
+        "lng": -122.1492224
+      }
+    },
+    {
+      "name": "Edmonds Composite",
+      "city": "Edmonds Composite  Edmonds",
+      "state": "WA",
+      "zip": "98020",
+      "geocoded": {
+        "query": "98020",
+        "formatted_address": "Woodway, WA 98020, USA",
+        "lat": 47.8040624,
+        "lng": -122.3735496
+      }
+    },
+    {
+      "name": "Icicle Bicycle",
+      "city": "Icicle Bicycle  Leavenworth",
+      "state": "WA",
+      "zip": "98826",
+      "geocoded": {
+        "query": "98826",
+        "formatted_address": "Leavenworth, WA 98826, USA",
+        "lat": 47.7827941,
+        "lng": -120.9263261
+      }
+    },
+    {
+      "name": "Inland NW (Spokane)",
+      "city": "Inland NW (Spokane)  Spokane",
+      "state": "WA",
+      "zip": "99202",
+      "geocoded": {
+        "query": "99202",
+        "formatted_address": "Spokane, WA 99202, USA",
+        "lat": 47.6568696,
+        "lng": -117.3719973
+      }
+    },
+    {
+      "name": "Issaquah Composite",
+      "city": "Issaquah Composite  Issaquah",
+      "state": "WA",
+      "zip": "98027",
+      "geocoded": {
+        "query": "98027",
+        "formatted_address": "Issaquah, WA 98027, USA",
+        "lat": 47.4925009,
+        "lng": -121.9516338
+      }
+    },
+    {
+      "name": "Key Penninsula Composite",
+      "city": "Key Penninsula Composite  Key Penninsula",
+      "state": "WA",
+      "zip": "98349",
+      "geocoded": {
+        "query": "98349",
+        "formatted_address": "Lakebay, WA 98349, USA",
+        "lat": 47.2648241,
+        "lng": -122.7762912
+      }
+    },
+    {
+      "name": "Kittitas County Composite",
+      "city": "Kittitas County Composite  Ellensberg",
+      "state": "WA",
+      "zip": "98926",
+      "geocoded": {
+        "query": "98926",
+        "formatted_address": "Ellensburg, WA 98926, USA",
+        "lat": 46.9965275,
+        "lng": -120.5478652
+      }
+    },
+    {
+      "name": "Kootenai Composite",
+      "city": "Kootenai Composite  Coeur d\\'Alene",
+      "state": "ID",
+      "zip": "83858",
+      "geocoded": {
+        "query": "83858",
+        "formatted_address": "Twin Lakes, ID 83858, USA",
+        "lat": 47.8409605,
+        "lng": -116.8791817
+      }
+    },
+    {
+      "name": "Mercer Island",
+      "city": "Mercer Island  Mercer Island",
+      "state": "WA",
+      "zip": "98040",
+      "geocoded": {
+        "query": "98040",
+        "formatted_address": "Mercer Island, WA 98040, USA",
+        "lat": 47.5824227,
+        "lng": -122.2331227
+      }
+    },
+    {
+      "name": "Methow Valley Composite",
+      "city": "Methow Valley Composite  Twisp",
+      "state": "WA",
+      "zip": "98856",
+      "geocoded": {
+        "query": "98856",
+        "formatted_address": "Twisp, WA 98856, USA",
+        "lat": 48.3481195,
+        "lng": -120.0389298
+      }
+    },
+    {
+      "name": "Metro Seattle MTB",
+      "city": "Metro Seattle MTB  Seattle",
+      "state": "WA",
+      "zip": "98102",
+      "geocoded": {
+        "query": "98102",
+        "formatted_address": "Seattle, WA 98102, USA",
+        "lat": 47.6338217,
+        "lng": -122.3215448
+      }
+    },
+    {
+      "name": "Monroe Composite",
+      "city": "Monroe Composite  Monroe",
+      "state": "WA",
+      "zip": "98272",
+      "geocoded": {
+        "query": "98272",
+        "formatted_address": "Monroe, WA 98272, USA",
+        "lat": 47.8627489,
+        "lng": -121.8867603
+      }
+    },
+    {
+      "name": "Mt. Si MTB",
+      "city": "Mt. Si MTB  North Bend",
+      "state": "WA",
+      "zip": "98045",
+      "geocoded": {
+        "query": "98045",
+        "formatted_address": "North Bend, WA 98045, USA",
+        "lat": 47.44083699999999,
+        "lng": -121.6253065
+      }
+    },
+    {
+      "name": "Northshore Composite",
+      "city": "Northshore Composite  Bothell",
+      "state": "WA",
+      "zip": "98011",
+      "geocoded": {
+        "query": "98011",
+        "formatted_address": "Bothell, WA 98011, USA",
+        "lat": 47.759038,
+        "lng": -122.2021071
+      }
+    },
+    {
+      "name": "Palouse Composite",
+      "city": "Palouse Composite  Moscow",
+      "state": "ID",
+      "zip": "83843",
+      "geocoded": {
+        "query": "83843",
+        "formatted_address": "Moscow, ID 83843, USA",
+        "lat": 46.7251492,
+        "lng": -116.9667226
+      }
+    },
+    {
+      "name": "Pilchuck Composite",
+      "city": "Pilchuck Composite  Pilchuck",
+      "state": "WA",
+      "zip": "98223",
+      "geocoded": {
+        "query": "98223",
+        "formatted_address": "Arlington, WA 98223, USA",
+        "lat": 48.19857930000001,
+        "lng": -122.1250016
+      }
+    },
+    {
+      "name": "Snohomish Composite",
+      "city": "Snohomish Composite  Snohomish",
+      "state": "WA",
+      "zip": "98290",
+      "geocoded": {
+        "query": "98290",
+        "formatted_address": "Snohomish, WA 98290, USA",
+        "lat": 47.957735,
+        "lng": -122.0058344
+      }
+    },
+    {
+      "name": "Spokane Valley",
+      "city": "Spokane Valley  Spokane",
+      "state": "WA",
+      "zip": "99206",
+      "geocoded": {
+        "query": "99206",
+        "formatted_address": "Spokane, WA 99206, USA",
+        "lat": 47.6098115,
+        "lng": -117.2454313
+      }
+    },
+    {
+      "name": "Sultan-Sky MTB",
+      "city": "Sultan-Sky MTB  Sultan",
+      "state": "WA",
+      "zip": "98294",
+      "geocoded": {
+        "query": "98294",
+        "formatted_address": "Sultan, WA 98294, USA",
+        "lat": 47.8927768,
+        "lng": -121.7539283
+      }
+    },
+    {
+      "name": "Tahoma MTB",
+      "city": "Tahoma MTB  Tahoma",
+      "state": "WA",
+      "zip": "98038",
+      "geocoded": {
+        "query": "98038",
+        "formatted_address": "Maple Valley, WA 98038, USA",
+        "lat": 47.4081994,
+        "lng": -121.9774543
+      }
+    },
+    {
+      "name": "Three Rivers Devo",
+      "city": "Three Rivers Devo  Kennewick",
+      "state": "WA",
+      "zip": "99338",
+      "geocoded": {
+        "query": "99338",
+        "formatted_address": "Kennewick, WA 99338, USA",
+        "lat": 46.1031257,
+        "lng": -119.2960195
+      }
+    },
+    {
+      "name": "Wenatchee Devo",
+      "city": "Wenatchee Devo  Wenatchee",
+      "state": "WA",
+      "zip": "98801",
+      "geocoded": {
+        "query": "98801",
+        "formatted_address": "Wenatchee, WA 98801, USA",
+        "lat": 47.3821918,
+        "lng": -120.3761228
+      }
+    },
+    {
+      "name": "Yakima",
+      "city": "Yakima  Yakima",
+      "state": "WA",
+      "zip": "98908",
+      "geocoded": {
+        "query": "98908",
+        "formatted_address": "Yakima, WA 98908, USA",
+        "lat": 46.6142844,
+        "lng": -120.732328
+      }
+    }
+  ],
+  "races": [
+    {
+      "year": "2023",
+      "season": "Spring",
+      "date": "4/16",
+      "city": "Gig Harbor",
+      "venue": "360 Trails",
+      "location_key": "Gig Harbor, 360 Trails",
+      "geocoded": {
+        "query": "360 Trails, Gig Harbor",
+        "formatted_address": "360 Trail, Wauna, WA 98329, USA",
+        "lat": 47.3941052,
+        "lng": -122.6822641
+      }
+    },
+    {
+      "year": "2023",
+      "season": "Spring",
+      "date": "4/30",
+      "city": "Ephrata",
+      "venue": "(local venue)",
+      "location_key": "Ephrata, (local venue)",
+      "geocoded": {
+        "query": "(local venue), Ephrata",
+        "formatted_address": "Ephrata, WA 98823, USA",
+        "lat": 47.3176385,
+        "lng": -119.5536491
+      }
+    },
+    {
+      "year": "2023",
+      "season": "Spring",
+      "date": "5/14",
+      "city": "Spokane",
+      "venue": "(local venue)",
+      "location_key": "Spokane, (local venue)",
+      "geocoded": {
+        "query": "(local venue), Spokane",
+        "formatted_address": "10514 E Sprague Ave, Spokane Valley, WA 99206, USA",
+        "lat": 47.6557115,
+        "lng": -117.2630099
+      }
+    },
+    {
+      "year": "2023",
+      "season": "Spring",
+      "date": "6/04",
+      "city": "Winthrop",
+      "venue": "(local venue)",
+      "location_key": "Winthrop, (local venue)",
+      "geocoded": {
+        "query": "(local venue), Winthrop",
+        "formatted_address": "Winthrop, WA 98862, USA",
+        "lat": 48.4778336,
+        "lng": -120.1854093
+      }
+    },
+    {
+      "year": "2023",
+      "season": "Spring",
+      "date": "6/11",
+      "city": "Bellingham",
+      "venue": "Galbraith",
+      "location_key": "Bellingham, Galbraith",
+      "geocoded": {
+        "query": "Galbraith, Bellingham",
+        "formatted_address": "3300 Squalicum Pkwy #200, Bellingham, WA 98225, USA",
+        "lat": 48.771848,
+        "lng": -122.4670294
+      }
+    },
+    {
+      "year": "2023",
+      "season": "Fall",
+      "date": "9/17",
+      "city": "Port Gamble",
+      "venue": "Port Gamble (Race + Camping)",
+      "location_key": "Port Gamble, Port Gamble (Race + Camping)",
+      "geocoded": {
+        "query": "Port Gamble (Race + Camping), Port Gamble",
+        "formatted_address": "Port Gamble, WA 98370, USA",
+        "lat": 47.8542606,
+        "lng": -122.5837581
+      }
+    },
+    {
+      "year": "2023",
+      "season": "Fall",
+      "date": "10/08",
+      "city": "Wenatchee",
+      "venue": "Squilchuck (Race + Camping)",
+      "location_key": "Wenatchee, Squilchuck (Race + Camping)",
+      "geocoded": {
+        "query": "Squilchuck (Race + Camping), Wenatchee",
+        "formatted_address": "1780 S Mission St, Wenatchee, WA 98801, USA",
+        "lat": 47.3971452,
+        "lng": -120.3031822
+      }
+    },
+    {
+      "year": "2024",
+      "season": "Spring",
+      "date": "4/14",
+      "city": "Spokane",
+      "venue": "Riverside (State Park)",
+      "location_key": "Spokane, Riverside (State Park)",
+      "geocoded": {
+        "query": "Riverside (State Park), Spokane",
+        "formatted_address": "Riverside State Park, 9711 W Charles Rd, Nine Mile Falls, WA 99026, USA",
+        "lat": 47.7517885,
+        "lng": -117.5436475
+      }
+    },
+    {
+      "year": "2024",
+      "season": "Spring",
+      "date": "4/28",
+      "city": "Winthrop",
+      "venue": "Liberty Bell High School",
+      "location_key": "Winthrop, Liberty Bell High School",
+      "geocoded": {
+        "query": "Liberty Bell High School, Winthrop",
+        "formatted_address": "18 Twin Lakes Rd, Winthrop, WA 98862, USA",
+        "lat": 48.44225309999999,
+        "lng": -120.169876
+      }
+    },
+    {
+      "year": "2024",
+      "season": "Spring",
+      "date": "5/05",
+      "city": "Cle Elum",
+      "venue": "Flying Horseshoe Ranch (Relay)",
+      "location_key": "Cle Elum, Flying Horseshoe Ranch (Relay)",
+      "geocoded": {
+        "query": "Flying Horseshoe Ranch (Relay), Cle Elum",
+        "formatted_address": "3190 Red Bridge Rd, Cle Elum, WA 98922, USA",
+        "lat": 47.1912019,
+        "lng": -120.817642
+      }
+    },
+    {
+      "year": "2024",
+      "season": "Spring",
+      "date": "5/19",
+      "city": "Gig Harbor",
+      "venue": "360 Trails Park",
+      "location_key": "Gig Harbor, 360 Trails Park",
+      "geocoded": {
+        "query": "360 Trails Park, Gig Harbor",
+        "formatted_address": "360 Trail, Wauna, WA 98329, USA",
+        "lat": 47.3941052,
+        "lng": -122.6822641
+      }
+    },
+    {
+      "year": "2024",
+      "season": "Spring",
+      "date": "6/02",
+      "city": "Wenatchee",
+      "venue": "Squilchuck (State Park)",
+      "location_key": "Wenatchee, Squilchuck (State Park)",
+      "geocoded": {
+        "query": "Squilchuck (State Park), Wenatchee",
+        "formatted_address": "Squilchuck State Pk, 2805 Mission Ridge Rd, Wenatchee, WA 98801, USA",
+        "lat": 47.30906720000001,
+        "lng": -120.3728069
+      }
+    },
+    {
+      "year": "2024",
+      "season": "Fall",
+      "date": "9/29",
+      "city": "Cle Elum",
+      "venue": "Roslyn High School",
+      "location_key": "Cle Elum, Roslyn High School",
+      "geocoded": {
+        "query": "Roslyn High School, Cle Elum",
+        "formatted_address": "Roslyn Pl, Cle Elum, WA 98922, USA",
+        "lat": 47.1984261,
+        "lng": -120.951533
+      }
+    },
+    {
+      "year": "2024",
+      "season": "Fall",
+      "date": "10/13",
+      "city": "Gig Harbor",
+      "venue": "360 Trails",
+      "location_key": "Gig Harbor, 360 Trails",
+      "geocoded": {
+        "query": "360 Trails, Gig Harbor",
+        "formatted_address": "360 Trail, Wauna, WA 98329, USA",
+        "lat": 47.3941052,
+        "lng": -122.6822641
+      }
+    },
+    {
+      "year": "2025",
+      "season": "Spring",
+      "date": "4/13",
+      "city": "Lakewood",
+      "venue": "Fort Steilacoom",
+      "location_key": "Lakewood, Fort Steilacoom",
+      "geocoded": {
+        "query": "Fort Steilacoom, Lakewood",
+        "formatted_address": "9601 Steilacoom Blvd SW, Lakewood, WA 98498, USA",
+        "lat": 47.1793059,
+        "lng": -122.5633311
+      }
+    },
+    {
+      "year": "2025",
+      "season": "Spring",
+      "date": "4/27",
+      "city": "Cle Elum",
+      "venue": "Cle Elum-Roslyn High School",
+      "location_key": "Cle Elum, Cle Elum-Roslyn High School",
+      "geocoded": {
+        "query": "Cle Elum-Roslyn High School, Cle Elum",
+        "formatted_address": "2692 WA-903, Cle Elum, WA 98922, USA",
+        "lat": 47.20489269999999,
+        "lng": -120.9760538
+      }
+    },
+    {
+      "year": "2025",
+      "season": "Spring",
+      "date": "5/4",
+      "city": "Leavenworth",
+      "venue": "Ski Hill",
+      "location_key": "Leavenworth, Ski Hill",
+      "geocoded": {
+        "query": "Ski Hill, Leavenworth",
+        "formatted_address": "Ski Hill Dr, Leavenworth, WA 98826, USA",
+        "lat": 47.5979723,
+        "lng": -120.6687228
+      }
+    },
+    {
+      "year": "2025",
+      "season": "Spring",
+      "date": "5/18",
+      "city": "Winthrop",
+      "venue": "Liberty Bell High School",
+      "location_key": "Winthrop, Liberty Bell High School",
+      "geocoded": {
+        "query": "Liberty Bell High School, Winthrop",
+        "formatted_address": "18 Twin Lakes Rd, Winthrop, WA 98862, USA",
+        "lat": 48.44225309999999,
+        "lng": -120.169876
+      }
+    },
+    {
+      "year": "2025",
+      "season": "Spring",
+      "date": "6/1",
+      "city": "Gig Harbor",
+      "venue": "360 Trails (State Championship and Relay)",
+      "location_key": "Gig Harbor, 360 Trails (State Championship and Relay)",
+      "geocoded": {
+        "query": "360 Trails (State Championship and Relay), Gig Harbor",
+        "formatted_address": "Gig Harbor, WA, USA",
+        "lat": 47.3293853,
+        "lng": -122.5808577
+      }
+    },
+    {
+      "year": "2025",
+      "season": "Fall",
+      "date": "9/28",
+      "city": "Lakewood",
+      "venue": "Fort Steilacoom",
+      "location_key": "Lakewood, Fort Steilacoom",
+      "geocoded": {
+        "query": "Fort Steilacoom, Lakewood",
+        "formatted_address": "9601 Steilacoom Blvd SW, Lakewood, WA 98498, USA",
+        "lat": 47.1793059,
+        "lng": -122.5633311
+      }
+    },
+    {
+      "year": "2025",
+      "season": "Fall",
+      "date": "10/12",
+      "city": "Twisp",
+      "venue": "Loup Loup",
+      "location_key": "Twisp, Loup Loup",
+      "geocoded": {
+        "query": "Loup Loup, Twisp",
+        "formatted_address": "Loup Loup Ski Bowl, 97 FS, 4200 100 Road, Okanogan, WA 98840, USA",
+        "lat": 48.3943616,
+        "lng": -119.91097
+      }
+    }
+  ],
+  "distances": {
+    "Anacortes Composite": {
+      "races": {
+        "Gig Harbor - 360 Trails": 267.2,
+        "Ephrata - (local venue)": 489.0,
+        "Spokane - (local venue)": 720.1,
+        "Winthrop - (local venue)": 297.8,
+        "Bellingham - Galbraith": 83.5,
+        "Port Gamble - Port Gamble (Race + Camping)": 172.7,
+        "Wenatchee - Squilchuck (Race + Camping)": 351.3,
+        "Spokane - Riverside (State Park)": 714.2,
+        "Winthrop - Liberty Bell High School": 304.8,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 326.6,
+        "Gig Harbor - 360 Trails Park": 267.2,
+        "Wenatchee - Squilchuck (State Park)": 366.2,
+        "Cle Elum - Roslyn High School": 312.4,
+        "Lakewood - Fort Steilacoom": 247.7,
+        "Cle Elum - Cle Elum-Roslyn High School": 312.4,
+        "Leavenworth - Ski Hill": 302.8,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 251.9,
+        "Twisp - Loup Loup": 344.3
+      },
+      "total_miles": 6951.9
+    },
+    "Bainbridge Island": {
+      "races": {
+        "Gig Harbor - 360 Trails": 89.4,
+        "Ephrata - (local venue)": 484.2,
+        "Spokane - (local venue)": 715.4,
+        "Winthrop - (local venue)": 404.8,
+        "Bellingham - Galbraith": 208.5,
+        "Port Gamble - Port Gamble (Race + Camping)": 35.5,
+        "Wenatchee - Squilchuck (Race + Camping)": 321.8,
+        "Spokane - Riverside (State Park)": 709.5,
+        "Winthrop - Liberty Bell High School": 411.8,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 321.9,
+        "Gig Harbor - 360 Trails Park": 89.4,
+        "Wenatchee - Squilchuck (State Park)": 336.7,
+        "Cle Elum - Roslyn High School": 307.7,
+        "Lakewood - Fort Steilacoom": 126.0,
+        "Cle Elum - Cle Elum-Roslyn High School": 307.6,
+        "Leavenworth - Ski Hill": 273.2,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 99.1,
+        "Twisp - Loup Loup": 451.4
+      },
+      "total_miles": 6321.2
+    },
+    "Bellingham XCO": {
+      "races": {
+        "Gig Harbor - 360 Trails": 285.9,
+        "Ephrata - (local venue)": 507.6,
+        "Spokane - (local venue)": 738.8,
+        "Winthrop - (local venue)": 308.5,
+        "Bellingham - Galbraith": 3.6,
+        "Port Gamble - Port Gamble (Race + Camping)": 191.3,
+        "Wenatchee - Squilchuck (Race + Camping)": 369.9,
+        "Spokane - Riverside (State Park)": 732.8,
+        "Winthrop - Liberty Bell High School": 315.5,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 345.3,
+        "Gig Harbor - 360 Trails Park": 285.9,
+        "Wenatchee - Squilchuck (State Park)": 384.9,
+        "Cle Elum - Roslyn High School": 331.1,
+        "Lakewood - Fort Steilacoom": 266.4,
+        "Cle Elum - Cle Elum-Roslyn High School": 331.0,
+        "Leavenworth - Ski Hill": 321.4,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 270.6,
+        "Twisp - Loup Loup": 355.1
+      },
+      "total_miles": 7213.2
+    },
+    "Bonney Lake": {
+      "races": {
+        "Gig Harbor - 360 Trails": 69.3,
+        "Ephrata - (local venue)": 367.8,
+        "Spokane - (local venue)": 599.0,
+        "Winthrop - (local venue)": 447.5,
+        "Bellingham - Galbraith": 251.2,
+        "Port Gamble - Port Gamble (Race + Camping)": 140.0,
+        "Wenatchee - Squilchuck (Race + Camping)": 406.4,
+        "Spokane - Riverside (State Park)": 593.1,
+        "Winthrop - Liberty Bell High School": 454.5,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 205.5,
+        "Gig Harbor - 360 Trails Park": 69.3,
+        "Wenatchee - Squilchuck (State Park)": 421.3,
+        "Cle Elum - Roslyn High School": 191.3,
+        "Lakewood - Fort Steilacoom": 47.7,
+        "Cle Elum - Cle Elum-Roslyn High School": 191.2,
+        "Leavenworth - Ski Hill": 289.6,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 54.0,
+        "Twisp - Loup Loup": 494.0
+      },
+      "total_miles": 5864.0
+    },
+    "Capitol City MTB": {
+      "races": {
+        "Gig Harbor - 360 Trails": 97.5,
+        "Ephrata - (local venue)": 428.4,
+        "Spokane - (local venue)": 659.6,
+        "Winthrop - (local venue)": 504.0,
+        "Bellingham - Galbraith": 307.7,
+        "Port Gamble - Port Gamble (Race + Camping)": 168.2,
+        "Wenatchee - Squilchuck (Race + Camping)": 467.0,
+        "Spokane - Riverside (State Park)": 653.6,
+        "Winthrop - Liberty Bell High School": 511.0,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 266.1,
+        "Gig Harbor - 360 Trails Park": 97.5,
+        "Wenatchee - Squilchuck (State Park)": 481.9,
+        "Cle Elum - Roslyn High School": 251.9,
+        "Lakewood - Fort Steilacoom": 50.6,
+        "Cle Elum - Cle Elum-Roslyn High School": 251.8,
+        "Leavenworth - Ski Hill": 349.9,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 82.2,
+        "Twisp - Loup Loup": 550.6
+      },
+      "total_miles": 6838.8
+    },
+    "Cedarcrest MTB": {
+      "races": {
+        "Gig Harbor - 360 Trails": 177.5,
+        "Ephrata - (local venue)": 399.2,
+        "Spokane - (local venue)": 630.4,
+        "Winthrop - (local venue)": 307.2,
+        "Bellingham - Galbraith": 116.8,
+        "Port Gamble - Port Gamble (Race + Camping)": 83.0,
+        "Wenatchee - Squilchuck (Race + Camping)": 255.7,
+        "Spokane - Riverside (State Park)": 624.5,
+        "Winthrop - Liberty Bell High School": 314.3,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 236.9,
+        "Gig Harbor - 360 Trails Park": 177.5,
+        "Wenatchee - Squilchuck (State Park)": 270.6,
+        "Cle Elum - Roslyn High School": 222.7,
+        "Lakewood - Fort Steilacoom": 158.0,
+        "Cle Elum - Cle Elum-Roslyn High School": 222.7,
+        "Leavenworth - Ski Hill": 207.1,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 162.2,
+        "Twisp - Loup Loup": 353.8
+      },
+      "total_miles": 5569.8
+    },
+    "Edmonds Composite": {
+      "races": {
+        "Gig Harbor - 360 Trails": 143.8,
+        "Ephrata - (local venue)": 373.5,
+        "Spokane - (local venue)": 604.7,
+        "Winthrop - (local venue)": 355.3,
+        "Bellingham - Galbraith": 159.1,
+        "Port Gamble - Port Gamble (Race + Camping)": 29.6,
+        "Wenatchee - Squilchuck (Race + Camping)": 272.3,
+        "Spokane - Riverside (State Park)": 598.8,
+        "Winthrop - Liberty Bell High School": 362.4,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 211.2,
+        "Gig Harbor - 360 Trails Park": 143.8,
+        "Wenatchee - Squilchuck (State Park)": 287.2,
+        "Cle Elum - Roslyn High School": 197.0,
+        "Lakewood - Fort Steilacoom": 124.3,
+        "Cle Elum - Cle Elum-Roslyn High School": 196.9,
+        "Leavenworth - Ski Hill": 223.8,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 128.5,
+        "Twisp - Loup Loup": 401.9
+      },
+      "total_miles": 5444.8
+    },
+    "Icicle Bicycle": {
+      "races": {
+        "Gig Harbor - 360 Trails": 275.8,
+        "Ephrata - (local venue)": 194.9,
+        "Spokane - (local venue)": 451.0,
+        "Winthrop - (local venue)": 280.6,
+        "Bellingham - Galbraith": 272.2,
+        "Port Gamble - Port Gamble (Race + Camping)": 207.9,
+        "Wenatchee - Squilchuck (Race + Camping)": 98.5,
+        "Spokane - Riverside (State Park)": 409.9,
+        "Winthrop - Liberty Bell High School": 275.4,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 335.2,
+        "Gig Harbor - 360 Trails Park": 275.8,
+        "Wenatchee - Squilchuck (State Park)": 113.4,
+        "Cle Elum - Roslyn High School": 321.0,
+        "Lakewood - Fort Steilacoom": 256.3,
+        "Cle Elum - Cle Elum-Roslyn High School": 320.9,
+        "Leavenworth - Ski Hill": 50.0,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 260.5,
+        "Twisp - Loup Loup": 279.5
+      },
+      "total_miles": 5486.4
+    },
+    "Inland NW (Spokane)": {
+      "races": {
+        "Gig Harbor - 360 Trails": 624.6,
+        "Ephrata - (local venue)": 250.4,
+        "Spokane - (local venue)": 11.7,
+        "Winthrop - (local venue)": 370.7,
+        "Bellingham - Galbraith": 729.3,
+        "Port Gamble - Port Gamble (Race + Camping)": 695.3,
+        "Wenatchee - Squilchuck (Race + Camping)": 342.4,
+        "Spokane - Riverside (State Park)": 32.8,
+        "Winthrop - Liberty Bell High School": 365.6,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 402.5,
+        "Gig Harbor - 360 Trails Park": 624.6,
+        "Wenatchee - Squilchuck (State Park)": 357.3,
+        "Cle Elum - Roslyn High School": 398.5,
+        "Lakewood - Fort Steilacoom": 605.1,
+        "Cle Elum - Cle Elum-Roslyn High School": 400.9,
+        "Leavenworth - Ski Hill": 390.6,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 609.3,
+        "Twisp - Loup Loup": 330.2
+      },
+      "total_miles": 9136.9
+    },
+    "Issaquah Composite": {
+      "races": {
+        "Gig Harbor - 360 Trails": 108.4,
+        "Ephrata - (local venue)": 307.4,
+        "Spokane - (local venue)": 538.6,
+        "Winthrop - (local venue)": 426.8,
+        "Bellingham - Galbraith": 230.5,
+        "Port Gamble - Port Gamble (Race + Camping)": 179.1,
+        "Wenatchee - Squilchuck (Race + Camping)": 345.9,
+        "Spokane - Riverside (State Park)": 532.6,
+        "Winthrop - Liberty Bell High School": 433.8,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 145.1,
+        "Gig Harbor - 360 Trails Park": 108.4,
+        "Wenatchee - Squilchuck (State Park)": 360.9,
+        "Cle Elum - Roslyn High School": 130.9,
+        "Lakewood - Fort Steilacoom": 88.9,
+        "Cle Elum - Cle Elum-Roslyn High School": 130.8,
+        "Leavenworth - Ski Hill": 247.7,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 93.1,
+        "Twisp - Loup Loup": 514.8
+      },
+      "total_miles": 5555.0
+    },
+    "Key Penninsula Composite": {
+      "races": {
+        "Gig Harbor - 360 Trails": 21.5,
+        "Ephrata - (local venue)": 424.3,
+        "Spokane - (local venue)": 655.4,
+        "Winthrop - (local venue)": 499.8,
+        "Bellingham - Galbraith": 303.6,
+        "Port Gamble - Port Gamble (Race + Camping)": 95.4,
+        "Wenatchee - Squilchuck (Race + Camping)": 462.8,
+        "Spokane - Riverside (State Park)": 649.5,
+        "Winthrop - Liberty Bell High School": 506.9,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 261.9,
+        "Gig Harbor - 360 Trails Park": 21.5,
+        "Wenatchee - Squilchuck (State Park)": 477.7,
+        "Cle Elum - Roslyn High School": 247.7,
+        "Lakewood - Fort Steilacoom": 66.0,
+        "Cle Elum - Cle Elum-Roslyn High School": 247.7,
+        "Leavenworth - Ski Hill": 345.8,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 39.1,
+        "Twisp - Loup Loup": 546.4
+      },
+      "total_miles": 6467.2
+    },
+    "Kittitas County Composite": {
+      "races": {
+        "Gig Harbor - 360 Trails": 276.7,
+        "Ephrata - (local venue)": 128.6,
+        "Spokane - (local venue)": 359.8,
+        "Winthrop - (local venue)": 360.8,
+        "Bellingham - Galbraith": 381.4,
+        "Port Gamble - Port Gamble (Race + Camping)": 347.4,
+        "Wenatchee - Squilchuck (Race + Camping)": 167.2,
+        "Spokane - Riverside (State Park)": 353.9,
+        "Winthrop - Liberty Bell High School": 355.7,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 45.0,
+        "Gig Harbor - 360 Trails Park": 276.7,
+        "Wenatchee - Squilchuck (State Park)": 182.1,
+        "Cle Elum - Roslyn High School": 50.6,
+        "Lakewood - Fort Steilacoom": 257.2,
+        "Cle Elum - Cle Elum-Roslyn High School": 53.0,
+        "Leavenworth - Ski Hill": 215.3,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 261.4,
+        "Twisp - Loup Loup": 336.1
+      },
+      "total_miles": 5298.6
+    },
+    "Kootenai Composite": {
+      "races": {
+        "Gig Harbor - 360 Trails": 687.0,
+        "Ephrata - (local venue)": 312.9,
+        "Spokane - (local venue)": 54.5,
+        "Winthrop - (local venue)": 433.1,
+        "Bellingham - Galbraith": 791.7,
+        "Port Gamble - Port Gamble (Race + Camping)": 757.7,
+        "Wenatchee - Squilchuck (Race + Camping)": 404.8,
+        "Spokane - Riverside (State Park)": 77.7,
+        "Winthrop - Liberty Bell High School": 428.0,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 464.9,
+        "Gig Harbor - 360 Trails Park": 687.0,
+        "Wenatchee - Squilchuck (State Park)": 419.7,
+        "Cle Elum - Roslyn High School": 460.9,
+        "Lakewood - Fort Steilacoom": 667.5,
+        "Cle Elum - Cle Elum-Roslyn High School": 463.3,
+        "Leavenworth - Ski Hill": 453.0,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 671.7,
+        "Twisp - Loup Loup": 392.6
+      },
+      "total_miles": 10410.4
+    },
+    "Mercer Island": {
+      "races": {
+        "Gig Harbor - 360 Trails": 108.9,
+        "Ephrata - (local venue)": 330.8,
+        "Spokane - (local venue)": 562.0,
+        "Winthrop - (local venue)": 387.3,
+        "Bellingham - Galbraith": 191.0,
+        "Port Gamble - Port Gamble (Race + Camping)": 67.7,
+        "Wenatchee - Squilchuck (Race + Camping)": 278.0,
+        "Spokane - Riverside (State Park)": 556.1,
+        "Winthrop - Liberty Bell High School": 394.3,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 168.5,
+        "Gig Harbor - 360 Trails Park": 108.9,
+        "Wenatchee - Squilchuck (State Park)": 292.9,
+        "Cle Elum - Roslyn High School": 154.3,
+        "Lakewood - Fort Steilacoom": 89.4,
+        "Cle Elum - Cle Elum-Roslyn High School": 154.3,
+        "Leavenworth - Ski Hill": 229.4,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 93.6,
+        "Twisp - Loup Loup": 433.9
+      },
+      "total_miles": 5194.2
+    },
+    "Methow Valley Composite": {
+      "races": {
+        "Gig Harbor - 360 Trails": 509.6,
+        "Ephrata - (local venue)": 221.9,
+        "Spokane - (local venue)": 355.2,
+        "Winthrop - (local venue)": 26.1,
+        "Bellingham - Galbraith": 335.4,
+        "Port Gamble - Port Gamble (Race + Camping)": 415.1,
+        "Wenatchee - Squilchuck (Race + Camping)": 177.6,
+        "Spokane - Riverside (State Park)": 343.6,
+        "Winthrop - Liberty Bell High School": 21.0,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 391.9,
+        "Gig Harbor - 360 Trails Park": 509.6,
+        "Wenatchee - Squilchuck (State Park)": 192.5,
+        "Cle Elum - Roslyn High School": 388.0,
+        "Lakewood - Fort Steilacoom": 490.1,
+        "Cle Elum - Cle Elum-Roslyn High School": 390.4,
+        "Leavenworth - Ski Hill": 209.5,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 494.3,
+        "Twisp - Loup Loup": 20.5
+      },
+      "total_miles": 6513.3
+    },
+    "Metro Seattle MTB": {
+      "races": {
+        "Gig Harbor - 360 Trails": 118.2,
+        "Ephrata - (local venue)": 347.9,
+        "Spokane - (local venue)": 579.0,
+        "Winthrop - (local venue)": 373.1,
+        "Bellingham - Galbraith": 176.8,
+        "Port Gamble - Port Gamble (Race + Camping)": 58.2,
+        "Wenatchee - Squilchuck (Race + Camping)": 280.3,
+        "Spokane - Riverside (State Park)": 573.1,
+        "Winthrop - Liberty Bell High School": 380.1,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 185.6,
+        "Gig Harbor - 360 Trails Park": 118.2,
+        "Wenatchee - Squilchuck (State Park)": 295.2,
+        "Cle Elum - Roslyn High School": 171.3,
+        "Lakewood - Fort Steilacoom": 98.7,
+        "Cle Elum - Cle Elum-Roslyn High School": 171.3,
+        "Leavenworth - Ski Hill": 231.7,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 102.9,
+        "Twisp - Loup Loup": 419.7
+      },
+      "total_miles": 5278.2
+    },
+    "Monroe Composite": {
+      "races": {
+        "Gig Harbor - 360 Trails": 164.6,
+        "Ephrata - (local venue)": 307.2,
+        "Spokane - (local venue)": 617.4,
+        "Winthrop - (local venue)": 357.2,
+        "Bellingham - Galbraith": 160.9,
+        "Port Gamble - Port Gamble (Race + Camping)": 96.6,
+        "Wenatchee - Squilchuck (Race + Camping)": 210.8,
+        "Spokane - Riverside (State Park)": 611.5,
+        "Winthrop - Liberty Bell High School": 364.2,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 224.0,
+        "Gig Harbor - 360 Trails Park": 164.6,
+        "Wenatchee - Squilchuck (State Park)": 225.7,
+        "Cle Elum - Roslyn High School": 209.7,
+        "Lakewood - Fort Steilacoom": 145.0,
+        "Cle Elum - Cle Elum-Roslyn High School": 209.7,
+        "Leavenworth - Ski Hill": 162.3,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 149.2,
+        "Twisp - Loup Loup": 391.8
+      },
+      "total_miles": 5446.3
+    },
+    "Mt. Si MTB": {
+      "races": {
+        "Gig Harbor - 360 Trails": 141.4,
+        "Ephrata - (local venue)": 266.4,
+        "Spokane - (local venue)": 497.5,
+        "Winthrop - (local venue)": 442.4,
+        "Bellingham - Galbraith": 246.1,
+        "Port Gamble - Port Gamble (Race + Camping)": 212.1,
+        "Wenatchee - Squilchuck (Race + Camping)": 304.9,
+        "Spokane - Riverside (State Park)": 491.6,
+        "Winthrop - Liberty Bell High School": 493.5,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 104.0,
+        "Gig Harbor - 360 Trails Park": 141.4,
+        "Wenatchee - Squilchuck (State Park)": 319.8,
+        "Cle Elum - Roslyn High School": 89.8,
+        "Lakewood - Fort Steilacoom": 121.9,
+        "Cle Elum - Cle Elum-Roslyn High School": 89.8,
+        "Leavenworth - Ski Hill": 263.3,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 126.1,
+        "Twisp - Loup Loup": 473.8
+      },
+      "total_miles": 5582.6
+    },
+    "Northshore Composite": {
+      "races": {
+        "Gig Harbor - 360 Trails": 129.4,
+        "Ephrata - (local venue)": 351.1,
+        "Spokane - (local venue)": 582.3,
+        "Winthrop - (local venue)": 357.9,
+        "Bellingham - Galbraith": 161.6,
+        "Port Gamble - Port Gamble (Race + Camping)": 62.7,
+        "Wenatchee - Squilchuck (Race + Camping)": 248.3,
+        "Spokane - Riverside (State Park)": 576.3,
+        "Winthrop - Liberty Bell High School": 364.9,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 188.8,
+        "Gig Harbor - 360 Trails Park": 129.4,
+        "Wenatchee - Squilchuck (State Park)": 263.2,
+        "Cle Elum - Roslyn High School": 174.6,
+        "Lakewood - Fort Steilacoom": 109.9,
+        "Cle Elum - Cle Elum-Roslyn High School": 174.5,
+        "Leavenworth - Ski Hill": 199.8,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 114.1,
+        "Twisp - Loup Loup": 404.5
+      },
+      "total_miles": 5197.5
+    },
+    "Palouse Composite": {
+      "races": {
+        "Gig Harbor - 360 Trails": 656.0,
+        "Ephrata - (local venue)": 323.2,
+        "Spokane - (local venue)": 176.6,
+        "Winthrop - (local venue)": 508.8,
+        "Bellingham - Galbraith": 760.7,
+        "Port Gamble - Port Gamble (Race + Camping)": 726.7,
+        "Wenatchee - Squilchuck (Race + Camping)": 415.2,
+        "Spokane - Riverside (State Park)": 180.7,
+        "Winthrop - Liberty Bell High School": 503.7,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 433.9,
+        "Gig Harbor - 360 Trails Park": 656.0,
+        "Wenatchee - Squilchuck (State Park)": 430.2,
+        "Cle Elum - Roslyn High School": 429.9,
+        "Lakewood - Fort Steilacoom": 636.5,
+        "Cle Elum - Cle Elum-Roslyn High School": 432.3,
+        "Leavenworth - Ski Hill": 463.4,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 640.7,
+        "Twisp - Loup Loup": 468.2
+      },
+      "total_miles": 10638.9
+    },
+    "Pilchuck Composite": {
+      "races": {
+        "Gig Harbor - 360 Trails": 201.5,
+        "Ephrata - (local venue)": 423.2,
+        "Spokane - (local venue)": 654.4,
+        "Winthrop - (local venue)": 282.5,
+        "Bellingham - Galbraith": 102.6,
+        "Port Gamble - Port Gamble (Race + Camping)": 107.0,
+        "Wenatchee - Squilchuck (Race + Camping)": 276.1,
+        "Spokane - Riverside (State Park)": 648.5,
+        "Winthrop - Liberty Bell High School": 289.5,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 260.9,
+        "Gig Harbor - 360 Trails Park": 201.5,
+        "Wenatchee - Squilchuck (State Park)": 291.0,
+        "Cle Elum - Roslyn High School": 246.7,
+        "Lakewood - Fort Steilacoom": 182.0,
+        "Cle Elum - Cle Elum-Roslyn High School": 246.7,
+        "Leavenworth - Ski Hill": 227.6,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 186.2,
+        "Twisp - Loup Loup": 329.1
+      },
+      "total_miles": 5830.1
+    },
+    "Snohomish Composite": {
+      "races": {
+        "Gig Harbor - 360 Trails": 168.9,
+        "Ephrata - (local venue)": 390.7,
+        "Spokane - (local venue)": 621.8,
+        "Winthrop - (local venue)": 327.0,
+        "Bellingham - Galbraith": 146.3,
+        "Port Gamble - Port Gamble (Race + Camping)": 92.0,
+        "Wenatchee - Squilchuck (Race + Camping)": 235.0,
+        "Spokane - Riverside (State Park)": 615.9,
+        "Winthrop - Liberty Bell High School": 334.0,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 228.3,
+        "Gig Harbor - 360 Trails Park": 168.9,
+        "Wenatchee - Squilchuck (State Park)": 250.0,
+        "Cle Elum - Roslyn High School": 214.1,
+        "Lakewood - Fort Steilacoom": 149.4,
+        "Cle Elum - Cle Elum-Roslyn High School": 214.1,
+        "Leavenworth - Ski Hill": 186.5,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 153.6,
+        "Twisp - Loup Loup": 373.6
+      },
+      "total_miles": 5522.5
+    },
+    "Spokane Valley": {
+      "races": {
+        "Gig Harbor - 360 Trails": 640.5,
+        "Ephrata - (local venue)": 266.4,
+        "Spokane - (local venue)": 7.3,
+        "Winthrop - (local venue)": 386.7,
+        "Bellingham - Galbraith": 745.3,
+        "Port Gamble - Port Gamble (Race + Camping)": 711.3,
+        "Wenatchee - Squilchuck (Race + Camping)": 358.4,
+        "Spokane - Riverside (State Park)": 48.8,
+        "Winthrop - Liberty Bell High School": 381.6,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 418.4,
+        "Gig Harbor - 360 Trails Park": 640.5,
+        "Wenatchee - Squilchuck (State Park)": 373.3,
+        "Cle Elum - Roslyn High School": 414.4,
+        "Lakewood - Fort Steilacoom": 621.0,
+        "Cle Elum - Cle Elum-Roslyn High School": 416.8,
+        "Leavenworth - Ski Hill": 406.5,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 625.2,
+        "Twisp - Loup Loup": 346.1
+      },
+      "total_miles": 9451.6
+    },
+    "Sultan-Sky MTB": {
+      "races": {
+        "Gig Harbor - 360 Trails": 182.1,
+        "Ephrata - (local venue)": 306.9,
+        "Spokane - (local venue)": 562.9,
+        "Winthrop - (local venue)": 374.7,
+        "Bellingham - Galbraith": 178.4,
+        "Port Gamble - Port Gamble (Race + Camping)": 114.2,
+        "Wenatchee - Squilchuck (Race + Camping)": 210.5,
+        "Spokane - Riverside (State Park)": 521.9,
+        "Winthrop - Liberty Bell High School": 387.4,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 241.5,
+        "Gig Harbor - 360 Trails Park": 182.1,
+        "Wenatchee - Squilchuck (State Park)": 225.4,
+        "Cle Elum - Roslyn High School": 227.3,
+        "Lakewood - Fort Steilacoom": 162.6,
+        "Cle Elum - Cle Elum-Roslyn High School": 227.2,
+        "Leavenworth - Ski Hill": 161.9,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 166.8,
+        "Twisp - Loup Loup": 391.5
+      },
+      "total_miles": 5557.1
+    },
+    "Tahoma MTB": {
+      "races": {
+        "Gig Harbor - 360 Trails": 96.2,
+        "Ephrata - (local venue)": 312.4,
+        "Spokane - (local venue)": 543.6,
+        "Winthrop - (local venue)": 417.7,
+        "Bellingham - Galbraith": 221.4,
+        "Port Gamble - Port Gamble (Race + Camping)": 166.9,
+        "Wenatchee - Squilchuck (Race + Camping)": 351.0,
+        "Spokane - Riverside (State Park)": 537.6,
+        "Winthrop - Liberty Bell High School": 424.7,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 150.1,
+        "Gig Harbor - 360 Trails Park": 96.2,
+        "Wenatchee - Squilchuck (State Park)": 365.9,
+        "Cle Elum - Roslyn High School": 135.9,
+        "Lakewood - Fort Steilacoom": 76.6,
+        "Cle Elum - Cle Elum-Roslyn High School": 135.8,
+        "Leavenworth - Ski Hill": 259.9,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 80.9,
+        "Twisp - Loup Loup": 519.8
+      },
+      "total_miles": 5490.0
+    },
+    "Three Rivers Devo": {
+      "races": {
+        "Gig Harbor - 360 Trails": 521.7,
+        "Ephrata - (local venue)": 212.2,
+        "Spokane - (local venue)": 316.4,
+        "Winthrop - (local venue)": 459.1,
+        "Bellingham - Galbraith": 626.4,
+        "Port Gamble - Port Gamble (Race + Camping)": 592.4,
+        "Wenatchee - Squilchuck (Race + Camping)": 286.9,
+        "Spokane - Riverside (State Park)": 310.5,
+        "Winthrop - Liberty Bell High School": 454.0,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 299.5,
+        "Gig Harbor - 360 Trails Park": 521.7,
+        "Wenatchee - Squilchuck (State Park)": 301.8,
+        "Cle Elum - Roslyn High School": 295.5,
+        "Lakewood - Fort Steilacoom": 502.2,
+        "Cle Elum - Cle Elum-Roslyn High School": 298.0,
+        "Leavenworth - Ski Hill": 335.0,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 506.4,
+        "Twisp - Loup Loup": 418.5
+      },
+      "total_miles": 8736.0
+    },
+    "Wenatchee Devo": {
+      "races": {
+        "Gig Harbor - 360 Trails": 451.6,
+        "Ephrata - (local venue)": 107.0,
+        "Spokane - (local venue)": 363.0,
+        "Winthrop - (local venue)": 209.1,
+        "Bellingham - Galbraith": 377.8,
+        "Port Gamble - Port Gamble (Race + Camping)": 313.5,
+        "Wenatchee - Squilchuck (Race + Camping)": 11.7,
+        "Spokane - Riverside (State Park)": 357.1,
+        "Winthrop - Liberty Bell High School": 204.0,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 229.5,
+        "Gig Harbor - 360 Trails Park": 451.6,
+        "Wenatchee - Squilchuck (State Park)": 24.2,
+        "Cle Elum - Roslyn High School": 225.5,
+        "Lakewood - Fort Steilacoom": 432.1,
+        "Cle Elum - Cle Elum-Roslyn High School": 227.9,
+        "Leavenworth - Ski Hill": 56.7,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 436.3,
+        "Twisp - Loup Loup": 208.1
+      },
+      "total_miles": 5774.5
+    },
+    "Yakima": {
+      "races": {
+        "Gig Harbor - 360 Trails": 372.8,
+        "Ephrata - (local venue)": 212.8,
+        "Spokane - (local venue)": 443.9,
+        "Winthrop - (local venue)": 445.0,
+        "Bellingham - Galbraith": 477.5,
+        "Port Gamble - Port Gamble (Race + Camping)": 443.5,
+        "Wenatchee - Squilchuck (Race + Camping)": 251.3,
+        "Spokane - Riverside (State Park)": 438.0,
+        "Winthrop - Liberty Bell High School": 439.9,
+        "Cle Elum - Flying Horseshoe Ranch (Relay)": 150.7,
+        "Gig Harbor - 360 Trails Park": 372.8,
+        "Wenatchee - Squilchuck (State Park)": 266.2,
+        "Cle Elum - Roslyn High School": 146.7,
+        "Lakewood - Fort Steilacoom": 353.3,
+        "Cle Elum - Cle Elum-Roslyn High School": 149.1,
+        "Leavenworth - Ski Hill": 299.5,
+        "Gig Harbor - 360 Trails (State Championship and Relay)": 357.5,
+        "Twisp - Loup Loup": 420.2
+      },
+      "total_miles": 7206.7
+    }
+  },
+  "metadata": {
+    "generated_at": "2025-09-29 19:44:16",
+    "total_teams": 28,
+    "total_races": 21
+  }
+}
