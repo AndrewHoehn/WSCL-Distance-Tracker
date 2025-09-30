@@ -57,7 +57,6 @@
                         <label class="block text-sm font-medium mb-2">View By</label>
                         <select id="viewMode" class="w-full bg-gray-700 border border-gray-600 rounded px-3 py-2">
                             <option value="leaderboard">Leaderboard</option>
-                            <option value="venue">Venue Fairness</option>
                             <option value="race">By Venue Detail</option>
                             <option value="team">By Team</option>
                         </select>
@@ -187,7 +186,6 @@
                 document.getElementById('leaderboardFilter').classList.toggle('hidden', mode !== 'leaderboard');
                 document.getElementById('raceFilter').classList.toggle('hidden', mode !== 'race');
                 document.getElementById('teamFilter').classList.toggle('hidden', mode !== 'team');
-                // The new venue view doesn't need any filters
                 updateDisplay();
             });
             ['seasonSelect', 'raceSelect', 'teamSelect'].forEach(id => {
@@ -200,7 +198,6 @@
             const display = document.getElementById('resultsDisplay');
             switch(mode) {
                 case 'leaderboard': display.innerHTML = renderLeaderboardView(); break;
-                case 'venue': display.innerHTML = renderVenueFairnessView(); break;
                 case 'race': display.innerHTML = renderRaceView(); break;
                 case 'team': display.innerHTML = renderTeamView(); break;
             }
@@ -280,50 +277,6 @@
                 `;
             });
             html += '</div></div>';
-            return html;
-        }
-
-        function renderVenueFairnessView() {
-            const totalTeams = appData.metadata.total_teams;
-            if (!totalTeams) return '<p class="text-center text-red-400">Cannot calculate venue fairness without team count in metadata.</p>';
-
-            const venueStats = Object.entries(appData.aggregates.venue_total_hours).map(([venueName, totalHours]) => {
-                const totalMiles = appData.aggregates.venue_total_miles[venueName] || 0;
-                return {
-                    name: venueName,
-                    avgHours: totalHours / totalTeams,
-                    avgMiles: totalMiles / totalTeams,
-                    totalMiles: totalMiles
-                };
-            });
-
-            venueStats.sort((a, b) => a.avgHours - b.avgHours);
-
-            let html = '<div class="bg-gray-800 rounded-lg shadow-xl p-6">';
-            html += `<h2 class="text-2xl font-bold mb-2">Venue Fairness Ranking</h2>`;
-            html += `<p class="text-gray-400 mb-6">Venues ranked by the average travel burden placed on each team. Lower is better.</p>`;
-            html += '<div class="overflow-x-auto"><table class="w-full">';
-            html += `<thead><tr class="border-b border-gray-700">
-                        <th class="text-left py-3 px-4">Rank</th>
-                        <th class="text-left py-3 px-4">Venue</th>
-                        <th class="text-right py-3 px-4">Avg. Hours/Team</th>
-                        <th class="text-right py-3 px-4">Avg. Miles/Team</th>
-                        <th class="text-right py-3 px-4">Total Cost/Race</th>
-                     </tr></thead><tbody>`;
-
-            venueStats.forEach((venue, idx) => {
-                const medal = idx === 0 ? '🥇' : idx === 1 ? '🥈' : idx === 2 ? '🥉' : '';
-                const colorClass = venue.avgHours < 4.5 ? 'text-green-400' : venue.avgHours > 6 ? 'text-red-400' : 'text-yellow-400';
-                html += `<tr class="border-b border-gray-700 hover:bg-gray-700">
-                            <td class="py-3 px-4">${medal}${idx + 1}</td>
-                            <td class="py-3 px-4 font-semibold">${venue.name}</td>
-                            <td class="py-3 px-4 text-right font-bold ${colorClass}">${venue.avgHours.toFixed(1)}</td>
-                            <td class="py-3 px-4 text-right font-bold">${venue.avgMiles.toFixed(1)}</td>
-                            <td class="py-3 px-4 text-right font-bold">${formatCurrency(venue.totalMiles)}</td>
-                         </tr>`;
-            });
-
-            html += '</tbody></table></div></div>';
             return html;
         }
 
