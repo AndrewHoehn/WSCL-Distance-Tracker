@@ -398,12 +398,14 @@
                         (data.miles * CO2_GRAMS_PER_MILE) / 1000000;
 
                     html += `
-                    <div class="bg-gradient-to-r ${bgColor} rounded-lg p-4 flex items-center justify-between">
-                        <div class="flex items-center gap-4 w-1/3">
+                    <div class="bg-gradient-to-r ${bgColor} rounded-lg p-4 flex flex-col md:flex-row md:items-center md:justify-between">
+
+                        <div class="flex items-center gap-4 w-full md:w-1/3 mb-4 md:mb-0">
                             <div class="text-3xl w-12 text-center">${medal || idx + 1}</div>
                             <div class="font-bold text-lg">${team}</div>
                         </div>
-                        <div class="grid grid-cols-4 gap-2 md:gap-4 text-right w-2/3">
+
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-left md:text-right w-full md:w-2/3">
                              <div>
                                 <div class="text-lg md:text-2xl font-black">${formatNumberWithCommas(avgMiles, 1)}</div>
                                 <div class="text-xs opacity-80">Avg Miles/Race</div>
